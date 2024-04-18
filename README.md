@@ -1,2 +1,2 @@
 # DepMap_Analysis_of_ARID1A_Mutant_Cancers
- Demo with R code and outputs for DepMap analysis of ARID1A mutant cancers, including figure outputs for Figure S7 in Maxwell et al, 2024.
+Hi, Thanks for visiting my repo! :) To view my DepMap analysis demo with R code and figure outputs, please visit the following html address: https://mbmaxwell.github.io/DepMap_Analysis_of_ARID1A_Mutant_Cancers/ 
