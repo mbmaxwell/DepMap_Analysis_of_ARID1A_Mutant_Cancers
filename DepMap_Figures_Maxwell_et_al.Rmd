@@ -63,8 +63,6 @@ Load packages and set working directory
 ```{r}
 if (!require("pacman")) install.packages("pacman")
 pacman::p_load(here,  
-               depmap, #package to load depmap data
-               ExperimentHub, #Use together with depmap package to pull data
                tidyverse, #dyplyr and ggplot utilities
                ggrepel, # Optimize plot label separation 
                forcats, #Package for working with factors
@@ -86,15 +84,15 @@ RNAi <- read_excel("RNAi_DepMap_Portal_Diff_Means_4_17_24.xlsx")
 ```
 
 ## **DepMap Analysis of *ARID1A* mutant RNAi Genetic Dependencies (Figure S7L)**
-Below I'm including the steps to download *ARID1A* mutant RNAi genetic dependencies data from DepMap portal:
+Below I'm including steps to download *ARID1A* mutant RNAi genetic dependencies data from DepMap:
 1) Navigate to  https://depmap.org/portal/
 2) select "Tools" tab > custom analysis > Two Class Comparison
-3) Upload list of *ARID1A* mutant DepMap cell lines (n=222) included in this repo ("ARID1A_Mutant_Cell_Lines_DepMap_ID)
+3) Upload list of *ARID1A* mutant DepMap cell lines (n=222) included in this repo ("ARID1A_Mutant_Cell_Lines_DepMap_ID.csv)
 4) Select "RNAi (Achilles+DRIVE+Marcotte,DEMETER2)" under Portal data
 5) Use all other cell lines for out group > Run
-6) Download all 16810 rows of results table for plotting
+6) Download all 16810 rows of results table for further analysis
 
-Plotting effect size (difference of mean dependency values) vs Q-values for the ~17,000 genes in the DepMap RNAi screening data. There are nine genes that are classified as *ARID1A* mutant cancer dependencies classified by their differential dropout in the RNAi screens compared to non-mutant cancer cell lines. **The paralog of *ARID1A*, ARID1B is the most significant dependency in *ARID1A* mutant cancer cell lines which I'm highlighting here as a positive control to ensure the analysis gives reasonable results.**
+Plot effect size (difference of mean dependency values) vs Q-values for the nearly ~17,000 genes in the DepMap RNAi screening data. There are nine genes that are classified as *ARID1A* mutant cancer dependencies classified by their differential dropout in the RNAi screens compared to non-mutant cancer cell lines. **The paralog of *ARID1A*, ARID1B is the most significant dependency in *ARID1A* mutant cancer cell lines which I'm highlighting here as a positive control to ensure the analysis gives reasonable results.**
 ```{r RNAi volcano_plot, fig.height=6, message=FALSE}
 #Read in RNAia from the previous code chunk run on high performance computing cluster
 
@@ -214,7 +212,7 @@ custom_dotplot
 ```
 
 **Are *ARID1A* Mutant Cancers Synthetic Lethal with R-Loop Regulators?**
-The above ORA analysis reveals a prominent enrichment of biological processes related to RNA Metabolism and transcription. Several of these genes represented by these RNA metabolism and processing pathways (splicing factors, helicases, etc) are involved in the resolution of RNA:DNA hybrid structures called "R-Loops" formed during transcription-DNA replication conflicts which can result in genotoxic double stranded breaks and apoptosis if unresolved. 
+The above ORA analysis reveals a prominent enrichment of RNA Metabolism and transcription pathways. Several of the genes in these RNA metabolism and transcription pathways are involved in the resolution of RNA:DNA hybrid structures called "R-Loops" which are a product of transcriptional stalling and DNA replication stress and can result in genotoxic double stranded breaks and apoptosis if unresolved. 
 ```{r echo=FALSE, out.width = "100%", fig.align = "center"}
 knitr::include_graphics("ARID1A_Loss_R_Loops.png")
 # C:\Users\mattm\OneDrive\Desktop\GitHub_projects\DepMap
@@ -222,7 +220,7 @@ knitr::include_graphics("ARID1A_Loss_R_Loops.png")
 ```
 
 ## **R-loop regulators are enriched among *ARID1A* Mutant Dependencies (Figure S7M)**
-To test if R-Loop regulator genes are over-represented among the 9 *ARID1A* mutant dependency genes, we can use a reference list of putative R-Loop regulators from a resource called [R-Loop Base](https://academic.oup.com/nar/article/50/D1/D303/6430826) plus genes that encode BAF/SWI complex subunits compared to the ~17,000 non depndency genes as a background list. 
+To test if R-Loop regulator genes are over-represented among the 9 *ARID1A* mutant dependency genes, I used a reference list of putative R-Loop regulators from a resource called [R-Loop Base](https://academic.oup.com/nar/article/50/D1/D303/6430826) plus SWI/SNF (BAF) complex subunits (we and others discovered a role for SWI/SNF in R-loop resolution) compared to the ~17,000 non dependency genes as a background list. 
 ```{r Fisher T test, fig.height=8}
 
 #Read in R-Loop genes list
@@ -320,7 +318,7 @@ ggsave("RNAi_DepMap_barplots_R_loop_part_of_whole.pdf",height=6,width=4.5,units=
 ```
 
 ## **ARID1A mutant cancer cell lines downregulate STING pathway proteins (Figure 7K)**
-Below I'm including the steps to download *ARID1A* mutant vs Non-Mutant CCLE Proteomics data from DepMap portal:
+Below I'm including steps to download *ARID1A* mutant vs Non-Mutant cancer cell line encyclopedia (CCLE) Proteomics data from DepMap:
 1) Navigate to  https://depmap.org/portal/
 2) select "Tools" tab > custom analysis > Two Class Comparison
 3) Upload list of *ARID1A* mutant DepMap cell lines (n=222) included in this repo ("ARID1A_Mutant_Cell_Lines_DepMap_ID)
