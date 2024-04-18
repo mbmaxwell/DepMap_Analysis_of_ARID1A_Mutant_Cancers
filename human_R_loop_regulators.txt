@@ -1,0 +1,1186 @@
+Species	Entrez.ID	Gene	Description	Evidence..PMID.	Tier	References	Function..PMID.	
+1	Homo sapiens	103	ADAR	Double-stranded RNA-specific adenosine deaminase	"HTS (29742442), in vitro editing assay (28132026), DRIP-qPCR (33712600), RNaseH sensitivity (33712600), immunofluorescence with S9.6 (33712600)"	1	"28132026, 29742442, 33712600"	"binding to RNA:DNA hybrid and editing the DNA strand (28132026), editing the A-C mismatches within RNA:DNA hybrids formed between canonical and non-canonical variant repeats to facilitate resolution of telomeric R-loops by RNaseH2 (33712600)"
+2	Homo sapiens	9716	AQR	Intron-binding protein aquarius	"HTS (30108179), immunofluorescence with S9.6 (25435140), RNaseH sensitivity (25435140), dot blot with S9.6 (29061988)"	1	"25435140, 29061988, 30108179"	"RNA:DNA helicase, resolving R-loop (25435140, 29061988)"
+3	Homo sapiens	472	ATM	Serine-protein kinase ATM	"DRIP-qPCR (31338941, 33571423), RNaseH sensitivity (33571423), flag tagged HB-domain (30345028)"	1	"31338941, 33571423, 30345028"	"safeguarding genome stability against harmful RNA:DNA hybrids (31338941, 33571423), RNA:DNA hybrid promotes ATM activation (30345028)"
+4	Homo sapiens	545	ATR	Serine/threonine-protein kinase ATR	"RNaseH sensitivity (29170278), immunofluorescence with S9.6 (29038346, 31338941), DRIP-qPCR (31338941)"	1	"29038346, 29170278, 31338941"	"activated by R loops for faithful chromosome segregation (29170278), preventing R-loop formation to resolve replication stress (29038346, 31338941)"
+5	Homo sapiens	641	BLM	Bloom syndrome protein	"in vitro helicase assay (18448429, 23261817, 29042409), immunofluorescence with S9.6 (29042409, 31977077), RNaseH sensitivity (29042409), PLA with anti-BLM and S9.6 antibodies (29042409)"	1	"18448429, 23261817, 29042409, 31977077"	"helicase to remove R-loops (18448429, 23261817, 29042409, 31977077), enhancing the DNA relaxation activity (23261817)"
+6	Homo sapiens	672	BRCA1	Breast cancer type 1 susceptibility protein	"DRIP-qPCR (24896180, 25699710, 30894746), RNaseH sensitivity (24896180, 25184681, 30560944, 25623070), EMSA (30560944), immunofluorescence with S9.6 (28649985, 25623070), RNaseH sensitivity (28649985), DRIP-seq (28649985)"	1	"24896180, 25184681, 25699710, 28649985, 30560944, 30894746, 25623070"	"recognizing directly RNA:DNA hybrid (30560944), interacting with SETX to prevent R-loop-driven DNA damage repair (25699710), alleviating pausing-induced R-loops (28649985, 30894746), preventing R-loop accumulation and the associated replication stress and genome instability (24896180, 25184681), binding to cytosolic RNA:DNA hybrids (25623070)"
+7	Homo sapiens	675	BRCA2	Breast cancer type 2 susceptibility protein	"GFP-RNaseH1-HB (24896180), RNaseH sensitivity (24896180, 29386125, 33634895), DRIP-qPCR (24896180, 29386125, 30560944, 33634895), immunofluorescence with S9.6 (29386125, 33634895), PLA using anti-gamma H2AX and RNaseH2A antibodies (30560944), co-IP of RNaseH2A and BRCA2 (30560944)"	1	"24896180, 29386125, 30560944, 33634895"	"preventing R-loop formation (24896180), promoting Pol II release (29386125), mediating RNaseH2 recruitment (30560944), stimulating the R-loop-unwinding activity of DDX5 (33634895)"
+8	Homo sapiens	23476	BRD4	Bromodomain-containing protein 4	"immunofluorescence with S9.6 (31753913, 32796829), dot blot with S9.6 (31753913), RNaseH sensitivity (32796829), DRIP-qPCR (32796829), mCherry-RNaseH1 mutant (31753913), R-ChIP (32966794), R-ChIP-qPCR (32966794)"	1	"31753913, 32796829, 32966794"	"preventing the accumulation of R-loops (32796829, 32966794), regulating TOP1 activity by regulating RNAP II CTD phosphorylation (31753913)"
+9	Homo sapiens	1653	DDX1	ATP-dependent RNA helicase DDX1	"HTS (29742442, 30108179), DRIP-qPCR (27550810, 29731414), RNaseH sensitivity (27550810, 28544931, 29731414), pull-down assay (29742442), reverse IP (29742442), in vitro helicase assay (18710941)"	1	"18710941, 27550810, 28544931, 29731414, 29742442, 30108179"	"converting RNA G-Quadruplex Structures into R-loops (29731414), unwinding RNA:DNA hybrids and degrading RNA at DSB sites (18710941, 27550810), RNA-DNA hybrids are required for DDX1 accrual at DSBs (28544931)"
+10	Homo sapiens	9188	DDX21	Nucleolar RNA helicase 2	"HTS (29742442, 30108179), in vitro helicase assay (8407977, 28790157), immunofluorescence with S9.6 (28790157), RNaseH sensitivity (28790157), DRIP-qPCR (28790157, 31251802)"	1	"8407977, 28790157, 29742442, 30108179, 31251802"	"helicase to clear R-loops (8407977, 28790157, 31251802)"
+11	Homo sapiens	1655	DDX5	Probable ATP-dependent RNA helicase DDX5	"HTS (29742442, 30108179), DRIP-seq (32747416), in vitro helicase assay (31267554, 33634895), immunofluorescence with S9.6 (31267554, 33634895, 25623070), dot blot with S9.6 (31267554), DRIP-qPCR (31267554, 33015627, 33634895), RNaseH sensitivity (31267554, 33015627, 33634895, 25623070), pull-down assay (29742442), biolayer interferometry (30108179), PLA with anti-DDX5 and S9.6 antibody (33634895), DRIPc-seq (33634895)"	1	"25623070, 29742442, 30108179, 31267554, 32747416, 33015627, 33634895"	"helicase to clear R-loops (31267554, 33634895, 32747416, 33015627), binding to cytosolic RNA:DNA hybrids (25623070)"
+12	Homo sapiens	1660	DHX9	ATP-dependent RNA helicase A	"HTS (29742442, 30108179), immunofluorescence with S9.6 (30341290), pull-down assay (29742442), DRIP-qPCR (29742442, 33529165), in vitro helicase assay (21561811)"	1	"29742442, 30108179, 30341290, 33529165, 21561811"	"promoting R-loop formation in cells with impaired RNA splicing (30341290), promoting R-loop suppression and transcriptional termination (29742442), preventing R-loop-associated DNA damage (29742442), helicase to unwind RNA:DNA hybrids (33529165, 21561811)"
+13	Homo sapiens	2072	ERCC4	DNA repair endonuclease XPF	"immunofluorescence with S9.6 (25435140), dot-blot with the S9.6 antibody (33649200), RNaseH sensitivity (33649200)"	1	"25435140, 33649200"	"converting R-loops to DSBs (25435140, 33649200)"
+14	Homo sapiens	2073	ERCC5	DNA repair protein complementing XP-G cells	"immunofluorescence with S9.6 (25435140), dot-blot with the S9.6 antibody (33649200), RNaseH sensitivity (33649200)"	1	"25435140, 33649200"	"converting R-loops to DSBs (25435140, 33649200)"
+15	Homo sapiens	2130	EWSR1	RNA-binding protein EWS	"HTS (30108179), fluorescence anisotropy (32352519), EMSA (32352519), immunofluorescence with S9.6 (29513652), RNaseH sensitivity (29513652), DRIP-seq (29513652)"	1	"30108179, 32352519, 29513652"	"RNA binding protein (32352519), disease-related fusion protein increases transcription to cause R-loops and block BRCA1 repair in Ewing Sarcoma (29513652)"
+16	Homo sapiens	5394	EXOSC10	Exosome component 10	"HTS (30108179), DRIP-qPCR (25957685, 31086179), RNaseH sensitivity (31086179)"	1	"25957685, 30108179, 31086179"	"preventing R-loop formation by clearance of eRNA or damage-induced lncRNA (25957685, 31086179)"
+17	Homo sapiens	2175	FANCA	Fanconi anemia group A protein	"immunofluorescence with S9.6 (26593718), DRIP-qPCR (26584049), RNaseH sensitivity (26584049)"	1	"26584049, 26593718"	"coordinating replication and transcription and preventing R-loop formation (26593718, 26584049)"
+18	Homo sapiens	2177	FANCD2	Fanconi anemia group D2 protein	"immunofluorescence with S9.6 (30431240, 26593718, 26584049, 30650351), RNaseH sensitivity (26593718, 26584049, 27768874, 30650351), DRIP-qPCR (26584049, 27768874), PLA with anti-FANCD2 and S9.6 antibodies (29394375), EMSA (29394375, 30650351)"	1	"26584049, 26593718, 27768874, 29394375, 30431240, 30650351"	"coordinating replication and transcription (26593718, 26584049, 27768874), interacting with HNRNPU and DDX47 to resolve R-loops (30431240), binding R-loop via the displaced ssDNA strand and ssRNA tail (29394375, 30650351)"
+19	Homo sapiens	55215	FANCI	Fanconi anemia group I protein	"EMSA (29394375, 30650351), immunofluorescence with S9.6 (30650351), RNaseH sensitivity (30650351)"	1	"29394375, 30650351"	"coordinating replication and transcription (29394375), binding R-loop via the displaced ssDNA strand and ssRNA tail (29394375, 30650351)"
+20	Homo sapiens	57697	FANCM	Fanconi anemia group M protein	"immunofluorescence with S9.6 (26593718, 31836759), RNaseH sensitivity (31836759, 31138795), in vitro branch migration assays (26593718), in vitro helicase assay (31138795), dot blot with S9.6 (31138795), FISH (31138795)"	1	"26593718, 31836759, 31138795"	"coordinating replication and transcription and limiting R-loop level via its translocase activity (26593718), a helicase/translocase to disrupt the TERRA R-loops (31836759), limiting ALT activity by restricting telomeric replication stress induced by deregulated BLM and R-loops (31138795)"
+21	Homo sapiens	2237	FEN1	Flap endonuclease 1	"HTS (30108179), in vitro nuclease and binding assay (23675412, 32763971), RNaseH rescue (25922071)"	1	"23675412, 25922071, 30108179, 32763971"	"R-loop binding (23675412), processing RNA:DNA hybrid/flap intermediates (23675412, 25922071), cleavage of trinucleotide repeats engaged in an R-loop (32763971)"
+22	Homo sapiens	2521	FUS	RNA-binding protein FUS	"HTS (29742442), reverse IP (29742442), co-IP (33661429), RNaseH sensitivity (33661429)"	1	"29742442, 33661429"	"mediating RNA splicing and preventing R-loop formation (29742442, 33661429)"
+23	Homo sapiens	3192	HNRNPU	Heterogeneous nuclear ribonucleoprotein U	"HTS (29742442, 30108179), mCherry-RNaseH1 mutant (25030905), immunofluorescence with S9.6 (30431240)"	1	"25030905, 29742442, 30108179, 30431240"	"RNA processing to prevent R-loops induced by DNA damage and replication stress (25030905, 30431240), interacting with FANCD2 (30431240)"
+24	Homo sapiens	23517	MTREX	Exosome RNA helicase MTR4	"HTS (29742442, 30108179), DRIP-qPCR (28431250), in vitro helicase assay (28431250, 29844170)"	1	"28431250, 29844170, 29742442, 30108179"	"RNA helicase to unwind RNA:DNA hybrid (28431250, 29844170)"
+25	Homo sapiens	4691	NCL	Nucleolin	"HTS (29742442, 30108179), in vitro helicase assay (1649452), immunofluorescence with S9.6 (30108179)"	1	"1649452, 29742442, 30108179"	helicase to unwind RNA:DNA hybrid (1649452)
+26	Homo sapiens	4841	NONO	Non-POU domain-containing octamer-binding protein	"HTS (29742442, 30108179), immunofluorescence with S9.6 (30824709), pull-down assay (30108179), biolayer interferometry (30108179)"	1	"29742442, 30108179, 30824709"	regulating TERRA homeostasis and suppressing TERRA:telomere RNA:DNA-hybrid formation (30824709)
+27	Homo sapiens	10622	POLR3G	DNA-directed RNA polymerase III subunit RPC7	"EGFP-HB-NLS (33626331), immunofluorescence with S9.6 (25623070)"	1	"33626331, 25623070"	"synthesizing the RNA strand in RNA:DNA hybrid at DSBs (33626331), regulating cytosolic RNA:DNA hybrids (25623070)"
+28	Homo sapiens	10419	PRMT5	Protein arginine N-methyltransferase 5	"HTS (30108179), DRIP-seq (32747416), immunofluorescence with S9.6 (31267554), DRIP-qPCR (31267554)"	1	"30108179, 31267554, 32747416"	"preventing R-loop formation (32747416), methylating DDX5 to regulate R-loop level (31267554)"
+29	Homo sapiens	5893	RAD52	DNA repair protein RAD52 homolog	"GFP-RNaseH1-HB (30245011), pull-down assay (32503981), EMSA (30297739)"	1	"30245011, 32503981, 30297739"	"recruited by RNA:DNA hybrid for DNA repair (30245011, 30297739), higher affinity for DNA:RNA hybrids containing m5C-modified RNA to promote HR (32503981)"
+30	Homo sapiens	246243	RNASEH1	Ribonuclease H1	"in vitro RNaseH assay (2154746, 9799596, 30605451), structure (17964265, 18337749), EMSA (9799596, 18337749), immunofluorescence with anti-RNaseH1 and S9.6 antibodies (28977560), ChIP-qPCR with S9.6 (28977560), HTS (30108179), biolayer interferometry (30108179), DRIP-qPCR (28717002)"	1	"9799596, 17964265, 18337749, 2154746, 28717002, 28977560, 30108179, 30605451"	"catalyzing the cleavage of RNA in an RNA:DNA hybrid (2154746, 9799596, 17964265, 18337749, 28977560, 30108179), resolving R-loops and  enabling progression of the DNA replication fork (28717002),  directing origin-specific initiation of DNA replication in human mitochondria (30605451)"
+31	Homo sapiens	10535	RNASEH2A	Ribonuclease H2 subunit A	"HTS (30108179), DRIP-seq (26182405), in vitro RNaseH assay (19015152, 28402412, 30481312, 21177854, 29959219, 31529068), immunofluorescence with S9.6 (29315404)"	1	"19015152, 21177854, 26182405, 28402412, 29315404, 29959219, 30108179, 30481312, 31529068"	"catalyzing the cleavage of RNA or single ribonucleotide in an RNA:DNA hybrid (19015152, 21177854, 28402412, 30481312, 26182405, 31529068),  required for efficient LINE-1 retrotransposition (29959219), interplay with MOV10 is crucial for restricting L1 retrotransposition (29315404)"
+32	Homo sapiens	79621	RNASEH2B	Ribonuclease H2 subunit B	"HTS (30108179), DRIP-seq (26182405), in vitro RNaseH assay (19015152, 28402412, 30481312, 21177854, 33707687, 29959219, 31529068), immunofluorescence with S9.6 (33707687)"	1	"19015152, 21177854, 26182405, 28402412, 29959219, 30108179, 30481312, 33707687, 31529068"	"catalyzing the cleavage of RNA or single ribonucleotide in an RNA:DNA hybrid (19015152, 21177854, 28402412, 30481312, 26182405, 31529068), limiting the accumulation of endogenous RNA:DNA hybrids that may trigger an interferon-mediated immune response (33707687),  required for efficient LINE-1 retrotransposition (29959219)"
+33	Homo sapiens	84153	RNASEH2C	Ribonuclease H2 subunit C	"HTS (30108179), in vitro RNaseH assay (19015152, 28402412, 29959219, 30481312, 21177854, 31529068), immunofluorescence with S9.6 (30622304)"	1	"19015152, 21177854, 28402412, 29959219, 30108179, 30481312, 30622304, 31529068"	"catalyzing the cleavage of RNA or single ribonucleotide in an RNA:DNA hybrid (19015152, 21177854, 28402412, 30481312, 30622304, 31529068), restraining R-loop & DNA damage-induced inflammatory response (30622304),  required for efficient LINE-1 retrotransposition (29959219)"
+34	Homo sapiens	6045	RNF2	E3 ubiquitin-protein ligase RING2	"RNaseH sensitivity (30413623), DRIP-qPCR (32142505), pyCAG_RNaseH1_ D210N ChIP-qPCR (32142505)"	1	"30413623, 32142505"	"preventing RNA:DNA hybrids that impair DNA replication (30413623), suppressing R-loop at CFS sites (32142505)"
+35	Homo sapiens	6117	RPA1	Replication protein A 70 kDa DNA-binding subunit	"HTS (30108179), EMSA (28257700), in vitro RNaseH assay (28257700), strand invasion assay (32796030), RNaseH sensitivity (32796030)"	1	"28257700, 30108179, 32796030"	"RPA complex binding to the displaced ssDNA (28257700), interacts and stimulates RNaseH1 activity (28257700), binding RNA to promote R-loop formation (32796030)"
+36	Homo sapiens	6118	RPA2	Replication protein A 32 kDa subunit	"HTS (30108179), immunofluorescence with S9.6 (28257700), GFP-RNaseH1-D210N (28257700), EMSA (28257700), in vitro RNaseH assay (28257700), strand invasion assay (32796030), RNaseH sensitivity (32796030)"	1	"28257700, 30108179, 32796030"	"RPA complex binding to the displaced ssDNA (28257700), interacts and stimulates RNaseH1 activity (28257700), binding RNA to promote R-loop formation (32796030)"
+37	Homo sapiens	6119	RPA3	Replication protein A 14 kDa subunit	"EMSA (28257700), in vitro RNaseH assay (28257700), strand invasion assay (32796030), RNaseH sensitivity (32796030)"	1	"28257700, 32796030"	"RPA complex binding to the displaced ssDNA (28257700), interacts and stimulates RNaseH1 activity (28257700), binding RNA to promote R-loop formation (32796030)"
+38	Homo sapiens	51750	RTEL1	Regulator of telomere elongation helicase 1	"immunofluorescence with S9.6 (32561545, 32398827), RNaseH sensitivity (32561545, 32398827), GFP-RNaseH-HB (32561545), DRIP-qPCR (32561545), dot blot with S9.6 (32561545), pull-down assay (32561545), DRIP-seq (32398827)"	1	"32561545, 32398827"	helicase to prevent R-loop formation (32561545)
+39	Homo sapiens	23064	SETX	Probable helicase senataxin	"DRIP-qPCR (21700224, 29497062, 29416069), RNaseH sensitivity (21700224, 29395064, 29497062, 33661429), immunofluorescence with S9.6 (29395064), dot blot with S9.6 (29395064), DRIP-seq (32686621, 29416069), co-IP (33661429)"	1	"21700224, 29395064, 29497062, 32686621, 33661429, 29416069"	"helicase (21700224, 29395064, 29497062, 32686621, 33661429, 29416069), recruiting XRN2 (21700224), DSB repair (29497062), resolving RNA:DNA hybrids at DSB to prevent translocations (29416069)"
+40	Homo sapiens	23451	SF3B1	Splicing factor 3B subunit 1	"HTS (30108179), immunofluorescence with S9.6 (30054334, 32076118, 33054116), RNaseH sensitivity (28257700, 32076118)"	1	"30054334, 30108179, 32076118, 28257700, 33054116"	"inhibition of SF3B1 leads to R-loop accumulation (28257700), SF3B1 mutations underlie MDS and R-loop dysregulation (30054334, 32076118, 33054116)"
+41	Homo sapiens	23450	SF3B3	Splicing factor 3B subunit 3	"HTS (30108179), immunofluorescence with S9.6 (27991914, 30341290)"	1	"27991914, 30108179, 30341290"	"safeguarding genome stability and avoiding R-loop formation (27991914, 30341290)"
+42	Homo sapiens	6421	SFPQ	"Splicing factor, proline- and glutamine-rich"	"HTS (29742442, 30108179), immunofluorescence with S9.6 (30341290, 30824709, 32966782)"	1	"29742442, 30108179, 30341290, 30824709, 32966782"	"regulating TERRA homeostasis and suppressing TERRA:telomere RNA:DNA-hybrid formation (30824709), preventing the formation of R-loops (30341290), preventing collision of DNA replication and (R-loops during) transcription (32966782)"
+43	Homo sapiens	6606	SMN1	Survival motor neuron protein	"DRIP-qPCR (26700805), DRIP-seq (28270613), RNaseH sensitivity (30010942), immunofluorescence with S9.6 (30010942)"	1	"26700805, 28270613, 30010942"	"transcription termination control via resolving RNA:DNA hybrids (26700805), preventing the formation of R-loops (28270613), low levels of SMN1 cause SETX deficiency and R-loop accumulation (30010942)"
+44	Homo sapiens	6426	SRSF1	Serine/arginine-rich splicing factor 1	"HTS (29742442, 30108179), bisulfite-modification assay (16096057), RNaseH sensitivity (16096057, 31708417), pull-down assay (29742442), dot blot with S9.6 (31708417)"	1	"16096057, 29742442, 30108179, 31708417"	"splicing factor, modulating splicing and transcription and preventing R-loop formation (16096057, 31708417)"
+45	Homo sapiens	6427	SRSF2	Serine/arginine-rich splicing factor 2	"HTS (29742442), R-ChIP-qPCR (29395063), R-ChIP (29395063), immunofluorescence with S9.6 (29395063, 33054116), RNaseH sensitivity (29395063)"	1	"29395063, 29742442"	"promoting Pol II release and preventing R-loop accumulation (29395063), SF3B1 mutations underlie MDS and R-loop dysregulation (33054116)"
+46	Homo sapiens	23435	TARDBP	TAR DNA-binding protein 43	"HTS (29742442), immunofluorescence with S9.6 (32989039, 33301444), RNaseH sensitivity (32989039, 33301444), DRIP-qPCR (33301444)"	1	"29742442, 32989039, 33301444"	"binding to nascent RNA to prevent R-loop formation (32989039), preventing R-loop accumulation (33301444)"
+47	Homo sapiens	9984	THOC1	THO complex subunit 1	"RNaseH sensitivity (22144908, 32669125), GFP-RNaseH1-HB (24896180), immunofluorescence with S9.6 (32493765, 32669125), DRIP-qPCR (24896180, 28076779)"	1	"22144908, 24896180, 32493765, 32669125, 28076779"	"connection between transcription/RNA export and R-loop induced genome instability (22144908), interacting with DDX39B helicase (32493765), preventing R-loop accumulation (24896180, 32669125, 28076779)"
+48	Homo sapiens	7150	TOP1	DNA topoisomerase 1	"HTS (29742442, 30108179), GFP-RNaseH1-HB (24896180), immunofluorescence with S9.6 (23999093), DRIVE-qPCR (26784695), DRIP-qPCR (25851487, 28977560, 31533039), dot blot with S9.6 (30060749, 31533039), DRIP-seq (30060749), DRIPc-seq (30060749), RNaseH sensitivity (25851487)"	1	"23999093, 24896180, 25851487, 26784695, 28977560, 29742442, 30060749, 30108179, 31533039"	"relaxing DNA supercoils (10347234), transcriptional regulation (23999093, 26784695, 28977560, 31533039), stimulating BLM helicase activity (23261817), modulating the replication process (30060749), preventing transcription-associated genome instability (25851487)"
+49	Homo sapiens	8940	TOP3B	DNA topoisomerase 3-beta-1	"DRIP-qPCR (24507716, 29471495), RNaseH sensitivity (31795919, 29471495, 33378676), immunofluorescence with S9.6 (31795919), dot blot with S9.6 (33378676)"	1	"24507716, 31795919, 29471495, 33378676"	"relaxing negative supercoiled DNA to regulate trancription, DNA replication and R-loops (24507716, 31795919, 29471495, 33378676)"
+50	Homo sapiens	7307	U2AF1	Splicing factor U2AF 35 kDa subunit	"HTS (29742442, 30108179), immunofluorescence with S9.6 (28257700, 30054334), RNaseH sensitivity (28257700, 30054334), R-ChIP (29395063)"	1	"28257700, 29395063, 29742442, 30054334, 30108179"	"splicing factor (28257700, 30054334), affecting Pol II activity (29395063)"
+51	Homo sapiens	7486	WRN	Werner syndrome ATP-dependent helicase	"HTS (30108179), immunofluorescence with S9.6 (30657978, 29042409), in vitro helicase assay (21561811)"	1	"29042409, 30108179, 30657978, 21561811"	"helicase (29042409, 21561811), preventing R-loop-related genome instability (30657978)"
+52	Homo sapiens	22803	XRN2	5-3 exoribonuclease 2	"HTS (29742442, 30108179), immunofluorescence with anti-XRN2 and S9.6 antibodies (27437695), RNaseH sensitivity (27437695), dot blot with S9.6 (27437695), DRIP-qPCR (32645903), DRIP-seq (32747416), pull-down assay (29742442)"	1	"27437695, 29742442, 30108179, 32645903, 32747416"	"degrading RNA after R-loop resolution (27437695, 32747416), DSB repair (32645903)"
+53	Homo sapiens	23567	ZNF346	Zinc finger protein 346	"EMSA (10488071, 28208259)"	1	"10488071, 28208259"	"binding preferentially to RNA:DNA hybrids (10488071, 28208259)"
+54	Homo sapiens	27161	AGO2	Protein argonaute;Protein argonaute-2	"HTS (30108179), immunofluorescence with S9.6 (25623070), RNaseH sensitivity (25623070)"	2	"25623070, 30108179"	binding to cytosolic RNA:DNA hybrids (25623070)
+55	Homo sapiens	60489	APOBEC3G	DNA dC->dU-editing enzyme APOBEC-3G	"Southern blot (17314171), RNaseH sensitivity (17314171)"	2	17314171	inhibiting the synthesis of HBV DNA-RNA hybrids (17314171)
+56	Homo sapiens	79915	ATAD5	ATPase family AAA domain-containing protein 5	"immunofluorescence with S9.6 (32542338), GFP-RNaseH1-D210N mutant (32542338)"	2	32542338	interacting with RNA helicases to increase their abundance at replication forks to facilitate R-loop resolution (32542338)
+57	Homo sapiens	546	ATRX	Transcriptional regulator ATRX	"DRIP-qPCR (28487353), RNaseH sensitivity (28487353)"	2	28487353	suppressing deleterious DNA secondary structures that form at transcribed telomeric repeats (28487353)
+58	Homo sapiens	6311	ATXN2	Ataxin-2	"immunofluorescence with S9.6 (27574117), RNaseH sensitivity (27574117)"	2	27574117	preventing R-loop formation to safeguard genome stability (27574117)
+59	Homo sapiens	6790	AURKA	Aurora kinase A-A	"DRIP-qPCR (33768209), RNaseH sensitivity (33768209)"	2	33768209	suppressing R-loop formation (33768209)
+60	Homo sapiens	6046	BRD2	Bromodomain-containing protein 2	"immunofluorescence with S9.6 (31753913), dot blot with S9.6 (31753913), mCherry-RNaseH1 mutant (31753913)"	2	31753913	binding and activating TOP1 to restrain R-loops (31753913)
+61	Homo sapiens	9184	BUB3	Mitotic checkpoint protein BUB3	"HTS (29742442, 30108179), immunofluorescence with S9.6 (25918225), RNaseH sensitivity (25918225)"	2	"25918225, 29742442, 30108179"	regulating RNA splicing and preventing R-loop-mediated DNA damage (25918225)
+62	Homo sapiens	83879	CDCA7	Cell division cycle-associated protein 7	"immunofluorescence with S9.6 (33082427), RNaseH sensitivity (33082427), DRIP-qPCR (33082427), R-ChIP-qPCR (33082427)"	2	33082427	"component of chromatin remodeling complex, preventing R-loop formation (33082427)"
+63	Homo sapiens	1058	CENPA	Histone H3-like centromeric protein A	"DRIP-qPCR (33653953), RNaseH sensitivity (33653953), immunofluorescence with S9.6 (33653953)"	2	33653953	preventing R-loop formation at centromeres (33653953)
+64	Homo sapiens	115004	CGAS	Cyclic GMP-AMP synthase	"In vitro assay for cGAS activity (25425575), structure modeling (25425575)"	2	25425575	sensing cytosolic RNA:DNA hybrids for activating cellular immune response (25425575)
+65	Homo sapiens	10521	DDX17	Probable ATP-dependent RNA helicase DDX17	"HTS (29742442, 30108179), immunofluorescence with S9.6 (25623070), RNaseH sensitivity (25623070)"	2	"25623070, 29742442, 30108179"	binding to cytosolic RNA:DNA hybrids (25623070)
+66	Homo sapiens	11269	DDX19B	ATP-dependent RNA helicase DDX19B	"immunofluorescence with S9.6 (28314779), DRIP-qPCR (28314779), in vitro helicase assay (28314779), RNaseH sensitivity (28314779)"	2	28314779	helicase to remove R-loops (28314779)
+67	Homo sapiens	9416	DDX23	Probable ATP-dependent RNA helicase DDX23	"HTS (29742442, 30108179), immunofluorescence with S9.6 (28076779), RNaseH sensitivity (28076779), DRIP-qPCR (28076779)"	2	"29742442, 30108179, 28076779"	pausing of RNA polymerase II nucleates DDX23 at sites of R-loops for resolution (28076779)
+68	Homo sapiens	7919	DDX39B	Spliceosome RNA helicase DDX39B	"HTS (29742442, 30108179), immunofluorescence with S9.6 (32439635), RNaseH sensitivity (32439635), DRIP-qPCR (32439635), in vitro helicase assay (32439635), DRIP-seq (32439635)"	2	"29742442, 30108179, 32439635"	"helicase to remove R-loops (32439635, 32611612)"
+69	Homo sapiens	375748	ERCC6L2	DNA excision repair protein ERCC-6-like 2	"immunofluorescence with S9.6 (29987015), RNaseH sensitivity (29987015)"	2	29987015	participating in RNA polymerase II-mediated transcription via interaction with DNA-PK and resolving R loops (29987015)
+70	Homo sapiens	9941	EXOG	"Nuclease EXOG, mitochondrial"	"structure (30949702), in vitro nuclease assay (30949702)"	2	30949702	cleaving at RNA-DNA junctions to remove the 5'-end RNA dinucleotide in an RNA/DNA hybrid duplex (30949702)
+71	Homo sapiens	84498	FAM120B	Constitutive coactivator of peroxisome proliferator-activated receptor gamma	"immunofluorescence with S9.6 (29968717), RNaseH sensitivity (29968717), dot blot with S9.6 (29968717)"	2	29968717	"binding to Senataxin, an RNA/DNA helicase that resolves R-loops (29968717)"
+72	Homo sapiens	2332	FMR1	Synaptic functional regulator FMR1	"immunofluorescence with S9.6 (32966779), RNaseH sensitivity (32966779)"	2	32966779	preventing R-loop formation during replication-transcription conflicts (32966779)
+73	Homo sapiens	1647	GADD45A	Growth arrest and DNA damage-inducible protein GADD45 alpha	"R-loop footprinting (30617255), DRIP-qPCR (30617255), RNaseH sensitivity (30617255), EMSA (30617255)"	2	30617255	binding directly to R-loops and mediating local DNA demethylation by recruiting TET1 (30617255)
+74	Homo sapiens	2733	GLE1	Nucleoporin GLE1	"immunofluorescence with S9.6 (32755435), RNaseH sensitivity (32755435), mCherry-RNaseH1 (32755435), PLA with anti-GLE1 and S9.6 antibodies (32755435)"	2	32755435	impacting subnuclear localization of DDX1 and modulating transcription termination (32755435)
+75	Homo sapiens	3070	HELLS	Lymphoid-specific helicase	"HTS (30108179), immunofluorescence with S9.6 (33082427), RNaseH sensitivity (33082427)"	2	"30108179, 33082427"	"component of chromatin remodeling complex, preventing R-loop formation (33082427)"
+76	Homo sapiens	54617	INO80	Chromatin-remodeling ATPase INO80	"immunofluorescence with S9.6 (32913330), RNaseH sensitivity (32913330), DRIP-qPCR (32913330), colocalization with R-loops (32913330), tethering assay (32913330)"	2	32913330	counteracting accumulation of R-loops (32913330)
+77	Homo sapiens	4000	LMNA	Prelamin-A/C	"co-IP (33661429), RNaseH sensitivity (33661429)"	2	33661429	preventing R-loop formation (33661429)
+78	Homo sapiens	4144	MAT2A	S-adenosylmethionine synthase isoform type-2	"immunofluorescence with S9.6 (33450196), RNaseH sensitivity (33450196), dot blot with S9.6 (33450196)"	2	33450196	linked to R-loop regulator PRMT5 (33450196)
+79	Homo sapiens	4193	MDM2	E3 ubiquitin-protein ligase Mdm2	"GFP-RNaseH1-D210N (30413623), RNaseH sensitivity (30413623)"	2	30413623	sustaining DNA replication and preventing R-loop formation (30413623)
+80	Homo sapiens	4194	MDM4	Protein Mdm4	"dot blot with S9.6 (32427989), RNaseH sensitivity (32427989)"	2	32427989	enabling unperturbed DNA replication through the avoidance of R-loops (32427989)
+81	Homo sapiens	56339	METTL3	N6-adenosine-methyltransferase catalytic subunit	"immunofluorescence with S9.6 (32615088), RNaseH sensitivity (32615088), DRIP-qPCR (32615088), R-ChIP-qPCR (32615088), DRIP-seq (32615088)"	2	32615088	preventing m6A-modified RNAs from being degraded or by facilitating RNA hybridization with DNA possibly (32615088)
+82	Homo sapiens	79828	METTL8	mRNA N (3)-methylcytidine methyltransferase METTL8	"ChIP-qPCR (32199293), dot blot with S9.6 (32199293), RNaseH sensitivity (32199293)"	2	32199293	binding to RNA possibly and is responsible for R-loop stability (32199293)
+83	Homo sapiens	10725	NFAT5	Nuclear factor of activated T-cells 5	"PLA with anti-NFAT5 and S9.6 antibodies (33313823), RNaseH sensitivity (33313823), EMSA (33313823), single-molecule DNA curtain assay (33313823), catalytically-active GFP-RNaseH1 (33313823), immunofluorescence with S9.6 (33313823)"	2	33313823	promoting R-loop resolution (33313823)
+84	Homo sapiens	54623	PAF1	RNA polymerase II-associated factor 1 homolog	"RNaseH sensitivity (29386125), DRIP-qPCR (29386125)"	2	29386125	regulating Pol II pause release (29386125)
+85	Homo sapiens	87178	PNPT1	"Polyribonucleotide nucleotidyltransferase 1, mitochondrial"	"HTS (30108179), immunofluorescence with S9.6 (30301808), DRIP-qPCR (30301808), RNaseH sensitivity (30301808)"	2	"30108179, 30301808"	preventing harmful mitochondrial R-loops (30301808)
+86	Homo sapiens	84271	POLDIP3	Polymerase delta-interacting protein 3	"HTS (30108179), immunofluorescence with S9.6 (32561545), RNaseH sensitivity (32561545), GFP-RNaseH-HB (32561545), dot blot with S9.6 (32561545), DRIP-qPCR (32561545)"	2	"30108179, 32561545"	"putative component of THO/TREX complex, interaction with RTEL1 (32561545)"
+87	Homo sapiens	25913	POT1	Protection of telomeres protein 1	"dot blot with S9.6 (33073402), RNaseH sensitivity (33073402)"	2	33073402	"preventing association of telomeres with recombination enzymes, which cause formation of branched telomeric DNA, R-loop formation, telomere elongation and telomere fragility (33073402)"
+88	Homo sapiens	5514	PPP1R10	Serine/threonine-protein phosphatase 1 regulatory subunit 10	"HTS (30108179), immunofluorescence with S9.6 (30541148), dot blot with S9.6 (30541148)"	2	"30108179, 30541148"	regulating transcription and preventing R-loop formation (30541148)
+89	Homo sapiens	201973	PRIMPOL	DNA-directed primase/polymerase protein	"DRIP-qPCR (30478192), RNaseH sensitivity (30478192)"	2	30478192	restricting R-loop formation by repriming (30478192)
+90	Homo sapiens	5888	RAD51	DNA repair protein RAD51 homolog 1	"DRIP-qPCR (33057192), strand invasion assay (33057192), RNaseH sensitivity (33057192)"	2	33057192	promoting the association of endogenous TERRA with telomeres through R-loop formation (33057192)
+91	Homo sapiens	5883	RAD9A	Cell cycle checkpoint control protein RAD9A	"immunofluorescence with S9.6 (31338941), DRIP-qPCR (31338941)"	2	31338941	safeguarding genome stability against harmful RNA:DNA hybrids (31338941)
+92	Homo sapiens	10432	RBM14	RNA-binding protein 14	"HTS (29742442, 30108179), DRIP-qPCR (32094185), RNaseH sensitivity (32094185), DRIP-seq (32094185)"	2	"29742442, 30108179, 32094185"	required for RNA:DNA hybrid generation at DNA damage sites (32094185)
+93	Homo sapiens	9939	RBM8A	RNA-binding protein 8A	"HTS (29742442), immunofluorescence with S9.6 (30901577), RNaseH sensitivity (30901577), dot blot with S9.6 (30901577)"	2	"29742442, 30901577"	preventing R-loop accumulation during transcription (30901577)
+94	Homo sapiens	9400	RECQL5	ATP-dependent DNA helicase Q5	"DRIP-qPCR (25851487), RNaseH sensitivity (25851487)"	2	25851487	"promoting TOP1 SUMOylation by facilitating the interaction between PIAS1, SRSF1 and TOP1 (25851487)"
+95	Homo sapiens	165918	RNF168	E3 ubiquitin-protein ligase RNF168	"immunofluorescence with S9.6 (33529165), RNaseH sensitivity (33529165), DRIP-qPCR (33529165)"	2	33529165	ubiquitylating DHX9 to facilitate its recruitment to R-loop-prone genomic loci (33529165)
+96	Homo sapiens	8732	RNGTT	mRNA-capping enzyme	"RNaseH sensitivity (17978174), PAGE (17978174)"	2	17978174	RNA capping enzyme to promote R-loop formation in vitro (17978174)
+97	Homo sapiens	58490	RPRD1B	Regulation of nuclear pre-mRNA domain-containing protein 1B	"immunofluorescence with S9.6 (24589584), RNaseH sensitivity (24589584)"	2	24589584	"RPRD1B loss results in increased basal R-loop levels, DSBs, activated DNA-damage responses and enhanced genomic instability (24589584)"
+98	Homo sapiens	79595	SAP130	Histone deacetylase complex subunit SAP130	"immunofluorescence with S9.6 (29074626), RNaseH sensitivity (29074626), DRIP-qPCR (29074626)"	2	29074626	interacting with THO complex to prevent R-loops (29074626)
+99	Homo sapiens	25942	SIN3A	Paired amphipathic helix protein Sin3a	"immunofluorescence with S9.6 (29074626), RNaseH sensitivity (29074626), DRIP-qPCR (29074626)"	2	29074626	interacting with THO complex to prevent R-loops (29074626)
+100	Homo sapiens	51547	SIRT7	NAD-dependent protein deacetylase sirtuin-7	"immunofluorescence with S9.6 (28790157), in vitro helicase assay (28790157), RNaseH sensitivity (28790157), DRIP-qPCR (28790157)"	2	28790157	"deacetylating DDX21, augmenting helicase activity to unwind R-loops (28790157)"
+101	Homo sapiens	10569	SLU7	Pre-mRNA-splicing factor SLU7	"immunofluorescence with S9.6 (30657957), RNaseH sensitivity (30657957), dot blot with S9.6 (30657957)"	2	30657957	protecting cells from R-loop formation and DNA damage induction (30657957)
+102	Homo sapiens	50485	SMARCAL1	SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A-like protein 1	"HTS (30108179), dot blot with S9.6 (31515241), RNaseH sensitivity (31515241)"	2	"30108179, 31515241"	counteracting accumulation of R-loops and replication-transcription conflicts (31515241)
+103	Homo sapiens	6627	SNRPA1	U2 small nuclear ribonucleoprotein A	"HTS (29742442), GFP-RNaseH1-HB (27991914), immunofluorescence with S9.6 (27991914)"	2	"27991914, 29742442"	"splicing factor, safeguarding genome stability (27991914)"
+104	Homo sapiens	6733	SRPK2	SRSF protein kinase 2	"HTS (29742442), immunofluorescence with S9.6 (28076779), RNaseH sensitivity (28076779)"	2	"29742442, 28076779"	phosphorylation of DDX23 by SRPK2 is necessary to suppress R-loops (28076779)
+105	Homo sapiens	10274	STAG1	Cohesin subunit SA-1	"fluorescence anisotropy (32352519), AFM imaging (32352519), DNA tightrope assays (32352519)"	2	32352519	binding directly to R-loops (32352519)
+106	Homo sapiens	10735	STAG2	Cohesin subunit SA-2	"fluorescence anisotropy (32352519), AFM imaging (32352519), DNA tightrope assays (32352519)"	2	32352519	binding directly to R-loops (32352519)
+107	Homo sapiens	6832	SUPV3L1	"ATP-dependent RNA helicase SUPV3L1, mitochondrial"	"immunofluorescence with S9.6 (30301808), DRIP-qPCR (30301808), RNaseH sensitivity (30301808)"	2	30301808	"mitochondrial RNA helicase, preventing harmful mitochondrial R-loops (30301808)"
+108	Homo sapiens	6917	TCEA1	Transcription elongation factor A protein 1	"DRIP-qPCR (31519522), RNaseH sensitivity (31519522)"	2	31519522	preventing transcription stress and R-loop accumulation (31519522)
+109	Homo sapiens	6949	TCOF1	Treacle protein	"HTS (29742442, 30108179), immunofluorescence with S9.6 (33082515), RNaseH sensitivity (33082515), dot blot with S9.6 (33082515)"	2	"29742442, 30108179, 33082515"	binding to Pol II and suppressing TERRA transcription (33082515)
+110	Homo sapiens	7013	TERF1	Telomeric repeat-binding factor 1	"dot blot with S9.6 (29358759), RNaseH sensitivity (29358759)"	2	29358759	participating in chromosome end protection by averting TRF2-dependent telomeric R-loops (29358759)
+111	Homo sapiens	7157	TP53	Cellular tumor antigen p53	"DRIP-qPCR (33775872), in vitro nuclease assay (33775872)"	2	33775872	suppressing R-loop by degrading the RNA component of RNA:DNA hybrid (33775872)
+112	Homo sapiens	7454	WAS	Wiskott-Aldrich syndrome protein	"HTS (30108179), immunofluorescence with S9.6 (29248492), RNaseH sensitivity (29248492), DRIP-qPCR (29248492), PLA with anti-BLM and S9.6 antibodies (29248492), in vitro helicase assay (29248492)"	2	"29248492, 30108179"	preventing R-loop formation to safeguard genome stability (29248492)
+113	Homo sapiens	55339	WDR33	pre-mRNA 3' end processing protein WDR33	"GFP-RNaseH1-D210N (30639241), immunofluorescence with S9.6 (30639241)"	2	30639241	preventing R-loops and replication-stress-associated genome instability (30639241)
+114	Homo sapiens	7520	XRCC5	X-ray repair cross-complementing protein 5	"HTS (30108179), DRIP-qPCR (32094185), RNaseH sensitivity (32094185), DRIP-seq (32094185)"	2	"30108179, 32094185"	interacting with RNA:DNA hybrids at DNA damage sites (32094185)
+115	Homo sapiens	51441	YTHDF2	YTH domain-containing family protein 2	"HTS (30108179), immunofluorescence with S9.6 (31844323), RNaseH sensitivity (31844323), co-IP (31844323), EMSA (31844323)"	2	"30108179, 31844323"	preventing accumulation of m6A-containing RNA:DNA hybrids (31844323)
+116	Homo sapiens	9841	ZBTB24	Zinc finger and BTB domain-containing protein 24	"immunofluorescence with S9.6 (33082427), R-ChIP-qPCR (33082427)"	2	33082427	regulating transcription of CDCA7 (33082427) 
+117	Homo sapiens	7756	ZNF207	BUB3-interacting and GLEBS motif-containing protein ZNF207	"HTS (29742442, 30108179), immunofluorescence with S9.6 (25918225), RNaseH sensitivity (25918225)"	2	"25918225, 29742442, 30108179"	regulating splicing and preventing R-loop-mediated DNA damage (25918225)
+118	Homo sapiens	104	ADARB1	Double-stranded RNA-specific editase 1	"HTS (29742442), in vitro editing assay (28132026)"	3	"28132026, 29742442"	binding to RNA:DNA hybrid and editing the DNA strand (28132026) 
+119	Homo sapiens	57379	AICDA	Single-stranded DNA cytosine deaminase	EMSA (29161581)	3	29161581	DNA/RNA hybrid substrates modulate the catalytic activity of purified AICDA (29161581)
+120	Homo sapiens	121642	ALKBH2	DNA oxidative demethylase ALKBH2	in vitro oxidative demethylation assay (15229293)	3	15229293	catelyzing oxidative demethylation of hybrids as well  (15229293)
+121	Homo sapiens	221120	ALKBH3	Alpha-ketoglutarate-dependent dioxygenase alkB homolog 3	in vitro oxidative demethylation assay (15229293)	3	15229293	catelyzing oxidative demethylation of hybrids as well  (15229293)
+122	Homo sapiens	328	APEX1	DNA-(apurinic or apyrimidinic site) endonuclease	"HTS (30108179), in vitro enzymatic assay (32763971)"	3	"32763971, 30108179"	incising an abasic site in trinucleotide repeat R-loops during BER (32763971)
+123	Homo sapiens	54955	C1orf109	Uncharacterized protein C1orf109	immunofluorescence with S9.6 (32761833)	3	32761833	triggering R-loop accumulation by competing with PARP1 to bind to DHX9 (32761833)
+124	Homo sapiens	10498	CARM1	Histone-arginine methyltransferase CARM1	DRIP-qPCR (24507716)	3	24507716	recruiting TOP3B and preventing R-loop formation (24507716)
+125	Homo sapiens	79577	CDC73	Parafibromin	immunofluorescence with S9.6 (30541148)	3	30541148	"interacting with pol II, regulating ATR activity and R-loop formation (30541148)"
+126	Homo sapiens	1111	CHEK1	Serine/threonine-protein kinase Chk1	immunofluorescence with S9.6 (31338941)	3	31338941	safeguarding genome stability against harmful RNA:DNA hybrids (31338941)
+127	Homo sapiens	11200	CHEK2	Serine/threonine-protein kinase Chk2	immunofluorescence with S9.6 (31338941)	3	31338941	safeguarding genome stability against harmful RNA:DNA hybrids (31338941)
+128	Homo sapiens	1643	DDB2	DNA damage-binding protein 2	"HTS (30108179), immunofluorescence with S9.6 (31338941)"	3	"30108179, 31338941"	safeguarding genome stability against harmful RNA:DNA hybrids (31338941)
+129	Homo sapiens	1663	DDX11	ATP-dependent DNA helicase DDX11	in vitro helicase assay (10648783)	3	10648783	"RNA helicase, unwinding RNA:DNA hybrids (10648783)"
+130	Homo sapiens	8886	DDX18	ATP-dependent RNA helicase DDX18	"HTS (29742442, 30108179), immunofluorescence with S9.6 (30108179)"	3	"29742442, 30108179"	RNA helicase (30108179)
+131	Homo sapiens	51428	DDX41	Probable ATP-dependent RNA helicase DDX41	"HTS (29742442, 30108179), RNaseH sensitivity (29871919)"	3	"29742442, 29871919, 30108179"	sensing cytosolic RNA:DNA hybrids for antiviral gene expression (29871919)
+132	Homo sapiens	55510	DDX43	Probable ATP-dependent RNA helicase DDX43	in vitro helicase assay (28468824)	3	28468824	"RNA helicase, unwinding RNA:DNA hybrids (28468824)"
+133	Homo sapiens	51202	DDX47	Probable ATP-dependent RNA helicase DDX47	"HTS (29742442, 30108179), immunofluorescence with S9.6 (30431240)"	3	"29742442, 30108179, 30431240"	"RNA helicase, interacting with FANCD2 and suppressing R-loop level (30431240)"
+134	Homo sapiens	56919	DHX33	ATP-dependent RNA helicase DHX33	DRIP-PCR (32312884)	3	32312884	recruiting GADD45A for DNA demethylation (32312884)
+135	Homo sapiens	1789	DNMT3B	DNA (cytosine-5)-methyltransferase 3B	immunofluorescence with S9.6 (33082427)	3	33082427	"DNA methyltransferase, preventing R-loop formation (33082427)"
+136	Homo sapiens	29102	DROSHA	Ribonuclease 3	DRIP-seq (29416038)	3	29416038	driving the formation of DNA:RNA hybrids around DNA break sites to facilitate DNA repair (29416038)
+137	Homo sapiens	2021	ENDOG	"Endonuclease G, mitochondrial"	in vitro R-loop cleavage assay (12444964)	3	12444964	preferentially producing double-stranded breaks in R-loops (12444964)
+138	Homo sapiens	2074	ERCC6	DNA excision repair protein ERCC-6	EMSA (30297739)	3	30297739	binding R-loops at damage sites (30297739)
+139	Homo sapiens	51010	EXOSC3	Exosome complex component RRP40	"HTS (30108179), DRIP-qPCR (25957685)"	3	"25957685, 30108179"	preventing R-loop formation by clearance of eRNA (25957685)
+140	Homo sapiens	2189	FANCG	Fanconi anemia group G protein	immunofluorescence with S9.6 (31338941)	3	31338941	mediating DNA damage reponse (31338941)
+141	Homo sapiens	55120	FANCL	E3 ubiquitin-protein ligase FANCL	immunofluorescence with S9.6 (26593718)	3	26593718	coordinating replication and transcription (26593718)
+142	Homo sapiens	2926	GRSF1	G-rich sequence factor 1	immunofluorescence with S9.6 (30715486)	3	30715486	GRSF1 depletion results in RNA processing defects and increased levels of dsRNA and RNA:DNA hybrids (30715486)
+143	Homo sapiens	3184	HNRNPD	Heterogeneous nuclear ribonucleoprotein D0	"HTS (29742442, 30108179), DRIP-qPCR (30799487)"	3	"29742442, 30108179, 30799487"	"regulating R-loops for DNA damage repair (30799487), interacting with HNRNPU (30799487)"
+144	Homo sapiens	84148	KAT8	Histone acetyltransferase KAT8	immunofluorescence with S9.6 (29298824)	3	29298824	preventing R-loop formation to safeguard genome stability (29298824)
+145	Homo sapiens	23135	KDM6B	Lysine-specific demethylase 6B	DRIP-qPCR (31251802)	3	31251802	interacting with DDX21 to resolve R-loop (31251802)
+146	Homo sapiens	9656	MDC1	Mediator of DNA damage checkpoint protein 1	immunofluorescence with S9.6 (31338941)	3	31338941	safeguarding genome stability against harmful RNA:DNA hybrids (31338941)
+147	Homo sapiens	4361	MRE11	Double-strand break repair protein MRE11	immunofluorescence with S9.6 (32023457)	3	32023457	suppressing DNA damage at oncogene-induced R-loops (32023457)
+148	Homo sapiens	4613	MYCN	N-myc proto-oncogene protein	DRIP-qPCR (30894746)	3	30894746	promoting Pol II release (30894746)
+149	Homo sapiens	114548	NLRP3	"NACHT, LRR and PYD domains-containing protein 3"	immunofluorescence with S9.6 (24828532)	3	24828532	bacterial RNA:DNA hybrids are activators of the NLRP3 inflammasome (24828532)
+150	Homo sapiens	4869	NPM1	Nucleophosmin	"HTS (29742442, 30108179), pull-down assay (30108179)"	3	"29742442, 30108179"	interacting with RNA:DNA hybrids directly or indirectly (30108179)
+151	Homo sapiens	7468	NSD2	Histone-lysine N-methyltransferase NSD2	"HTS (29742442), pull-down assay (29742442)"	3	29742442	interacting with RNA:DNA hybrids directly or indirectly (29742442)
+152	Homo sapiens	4968	OGG1	N-glycosylase/DNA lyase	EMSA (31652414)	3	31652414	RNA:DNA hybrid binding-mediated epigenetic regulation (31652414)
+153	Homo sapiens	142	PARP1	Poly [ADP-ribose] polymerase 1	"HTS (29742442), pull-down assay (29742442)"	3	29742442	interacting with RNA:DNA hybrids directly or indirectly (29742442)
+154	Homo sapiens	5111	PCNA	Proliferating cell nuclear antigen	"HTS (29742442), PLA with anti-PCNA and S9.6 antibodies (32542338)"	3	"29742442, 32542338"	interacting with RNA:DNA hybrids directly or indirectly (32542338)
+155	Homo sapiens	5253	PHF2	Lysine-specific demethylase PHF2	immunofluorescence with S9.6 (31488723)	3	31488723	"H3K9me2 demethylase, preventing R-loop-induced DNA damage (31488723)"
+156	Homo sapiens	84844	PHF5A	PHD finger-like domain-containing protein 5A	immunofluorescence with S9.6 (27991914)	3	27991914	safeguarding genome stability (27991914)
+157	Homo sapiens	84295	PHF6	PHD finger protein 6	RNaseH sensitivity (23229552)	3	23229552	restricting R-loops at rDNA locus to preserve genome stability (23229552)
+158	Homo sapiens	80119	PIF1	ATP-dependent DNA helicase PIF1	in vitro helicase assay (16522649)	3	16522649	unwinding potentially the RNA:DNA duplex formed by telomerase RNA and telomeric DNA (16522649)
+159	Homo sapiens	5378	PMS1	PMS1 protein homolog 1	immunofluorescence with S9.6 (31338941)	3	31338941	safeguarding genome stability against harmful RNA:DNA hybrids (31338941)
+160	Homo sapiens	11128	POLR3A	DNA-directed RNA polymerase III subunit RPC1	EGFP-HB-NLS (33626331)	3	33626331	synthesizing the RNA strand in RNA:DNA hybrid at DSBs (33626331)
+161	Homo sapiens	5591	PRKDC	DNA-dependent protein kinase catalytic subunit	"HTS (29742442, 30108179), pull-down assay (29742442)"	3	"29742442, 30108179"	interacting with RNA:DNA hybrids directly or indirectly (29742442)
+162	Homo sapiens	3276	PRMT1	Protein arginine N-methyltransferase 1	"DRIP-qPCR (24507716), HTS (30108179)"	3	"24507716, 30108179"	recruiting TOP3B (24507716)
+163	Homo sapiens	5810	RAD1	Cell cycle checkpoint protein RAD1	immunofluorescence with S9.6 (31338941)	3	31338941	safeguarding genome stability against harmful RNA:DNA hybrids (31338941)
+164	Homo sapiens	5965	RECQL	ATP-dependent DNA helicase Q1	"HTS (30108179), pull-down assay (30108179)"	3	30108179	"DNA helicase, directly or indirectly interact with RNA:DNA hybrids (30108179)"
+165	Homo sapiens	9401	RECQL4	ATP-dependent DNA helicase Q4	DRIP-qPCR (33046774)	3	33046774	RNA:DNA hybrid annealing and unwinding activities (33046774)
+166	Homo sapiens	10921	RNPS1	RNA-binding protein with serine-rich domain 1	"HTS (29742442), AGE (17959926)"	3	"17959926, 29742442"	preventing R-loop formation (17959926)
+167	Homo sapiens	9667	SAFB2	Scaffold attachment factor B2	"HTS (29742442), pull-down assay (29742442)"	3	29742442	interacting with RNA:DNA hybrids directly or indirectly (29742442)
+168	Homo sapiens	25939	SAMHD1	Deoxynucleoside triphosphate triphosphohydrolase SAMHD1	DRIP-seq (26182405)	3	26182405	"function at stalled replication fork to promote the resection of gapped or reversed forks, causal gene of AGS (26182405)"
+169	Homo sapiens	7979	SEM1	26S proteasome complex subunit SEM1	GFP-RNaseH1-HB (24896180)	3	24896180	associating with BRCA2 (24896180)
+170	Homo sapiens	10946	SF3A3	Splicing factor 3A subunit 3	"HTS (30108179), immunofluorescence with S9.6 (27991914)"	3	"27991914, 30108179"	"splicing factor, preventing R-loop formation and safeguarding genome stability (27991914)"
+171	Homo sapiens	6667	SP1	Transcription factor Sp1	EMSA (7536342)	3	7536342	RNA:DNA hybrid binding (7536342)
+172	Homo sapiens	6742	SSBP1	"Single-stranded DNA-binding protein, mitochondrial"	"HTS (30108179), immunofluorescence with S9.6 (30715486)"	3	"30108179, 30715486"	SSBP1 depletion results in RNA processing defects and increased levels of dsRNA and RNA:DNA hybrids (30715486)
+173	Homo sapiens	6749	SSRP1	FACT complex subunit SSRP1	"HTS (29742442, 30108179), DRIP-qPCR (24636987)"	3	"24636987, 29742442, 30108179"	resolution of R-loop-mediated transcription-replication conflicts (24636987)
+174	Homo sapiens	11198	SUPT16H	FACT complex subunit SPT16	"HTS (29742442, 30108179), DRIP-qPCR (24636987)"	3	"24636987, 29742442, 30108179"	resolution of R-loop-mediated transcription-replication conflicts (24636987)
+175	Homo sapiens	6829	SUPT5H	Transcription elongation factor SPT5	"HTS (30108179), biolayer interferometry (30108179)"	3	30108179	regulating transcription pause release and elongation (30108179)
+176	Homo sapiens	6830	SUPT6H	Transcription elongation factor SPT6	immunofluorescence with S9.6 (27991914)	3	27991914	safeguarding genome stability (27991914)
+177	Homo sapiens	81550	TDRD3	Tudor domain-containing protein 3	DRIP-qPCR (24507716)	3	24507716	interacting with TOP3B (24507716)
+178	Homo sapiens	7014	TERF2	Telomeric repeat-binding factor 2	dot blot with S9.6 (29358759)	3	29358759	binding to TERRA-like RNA and promoting efficient RNA invasion and formation of telR-loops (29358759)
+179	Homo sapiens	10293	TRAIP	E3 ubiquitin-protein ligase TRAIP	immunofluorescence with S9.6 (12730227)	3	12730227	R-loops may be important in sequestering TRAIP in the nucleoli (12730227)
+180	Homo sapiens	1787	TRDMT1	tRNA (cytosine(38)-C(5))-methyltransferase	pull-down assay (32503981)	3	32503981	recruited to DNA damage sites by R-loops for efficient HR (32503981)
+181	Homo sapiens	11277	TREX1	Three-prime repair exonuclease 1	"HTS (30108179), DRIP-seq (26182405)"	3	"26182405, 30108179"	"cellular 3'-to-5' DNA exonuclease, mutant is causal gene of Aicardi-Goutieres syndrome (26182405)"
+182	Homo sapiens	7320	UBE2B	Ubiquitin-conjugating enzyme E2 B	immunofluorescence with S9.6 (31338941)	3	31338941	safeguarding genome stability against harmful RNA:DNA hybrids (31338941)
+183	Homo sapiens	84132	USP42	Ubiquitin carboxyl-terminal hydrolase 42	dot blot with S9.6 (32541651)	3	32541651	interacting with DHX9 and recruiting BRCA1 (32541651)
+184	Homo sapiens	7514	XPO1	Exportin-1	"HTS (30108179), immunofluorescence with S9.6 (25623070)"	3	"30108179, 25623070"	regulating transport of RNA:DNA hybrids from the nucleus to the cytosol (25623070)
+185	Homo sapiens	91746	YTHDC1	YTH domain-containing protein 1	"HTS (29742442), immunofluorescence with S9.6 (32615088)"	3	"29742442, 32615088"	preventing possibly m6A-modified RNAs from being degraded or by facilitating RNA hybridization with DNA (32615088)
+186	Homo sapiens	8882	ZPR1	Zinc finger protein ZPR1	immunofluorescence with S9.6 (31828288)	3	31828288	preventing R-loop formation (31828288)
+187	Homo sapiens	23	ABCF1	ATP-binding cassette sub-family F member 1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+188	Homo sapiens	22985	ACIN1	Apoptotic chromatin condensation inducer in the nucleus	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+189	Homo sapiens	226	ALDOA	Fructose-bisphosphate aldolase A;Fructose-bisphosphate aldolase	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+190	Homo sapiens	10189	ALYREF	THO complex subunit 4	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+191	Homo sapiens	27350	APOBEC3C	DNA dC->dU-editing enzyme APOBEC-3C	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+192	Homo sapiens	10576	CCT2	T-complex protein 1 subunit beta	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+193	Homo sapiens	7203	CCT3	T-complex protein 1 subunit gamma	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+194	Homo sapiens	10575	CCT4	T-complex protein 1 subunit delta	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+195	Homo sapiens	908	CCT6A	T-complex protein 1 subunit zeta	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+196	Homo sapiens	10694	CCT8	T-complex protein 1 subunit theta	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+197	Homo sapiens	988	CDC5L	Cell division cycle 5-like protein	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+198	Homo sapiens	1072	CFL1	Cofilin-1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+199	Homo sapiens	1213	CLTC	Clathrin heavy chain 1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+200	Homo sapiens	55907	CMAS	N-acylneuraminate cytidylyltransferase	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+201	Homo sapiens	11151	CORO1A	Coronin-1A	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+202	Homo sapiens	1615	DARS1	"Aspartate--tRNA ligase, cytoplasmic"	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+203	Homo sapiens	1642	DDB1	DNA damage-binding protein 1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+204	Homo sapiens	1654	DDX3X	ATP-dependent RNA helicase DDX3X	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+205	Homo sapiens	9879	DDX46	Probable ATP-dependent RNA helicase DDX46	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+206	Homo sapiens	1656	DDX6	Probable ATP-dependent RNA helicase DDX6	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+207	Homo sapiens	22907	DHX30	Putative ATP-dependent RNA helicase DHX30	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+208	Homo sapiens	170506	DHX36	Probable ATP-dependent RNA helicase DHX36	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+209	Homo sapiens	1736	DKC1	H/ACA ribonucleoprotein complex subunit 4	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+210	Homo sapiens	9093	DNAJA3	"DnaJ homolog subfamily A member 3, mitochondrial"	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+211	Homo sapiens	1786	DNMT1	DNA (cytosine-5)-methyltransferase 1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+212	Homo sapiens	1915	EEF1A1	Elongation factor 1-alpha 1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+213	Homo sapiens	1937	EEF1G	Elongation factor 1-gamma	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+214	Homo sapiens	1938	EEF2	Elongation factor 2	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+215	Homo sapiens	9343	EFTUD2	116 kDa U5 small nuclear ribonucleoprotein component	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+216	Homo sapiens	5610	EIF2AK2	"Interferon-induced, double-stranded RNA-activated protein kinase"	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+217	Homo sapiens	1965	EIF2S1	Eukaryotic translation initiation factor 2 subunit 1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+218	Homo sapiens	1968	EIF2S3	Eukaryotic translation initiation factor 2 subunit 3	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+219	Homo sapiens	8664	EIF3D	Eukaryotic translation initiation factor 3 subunit D	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+220	Homo sapiens	1973	EIF4A1	Eukaryotic initiation factor 4A-I	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+221	Homo sapiens	9775	EIF4A3	Eukaryotic initiation factor 4A-III	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+222	Homo sapiens	1984	EIF5A	Eukaryotic translation initiation factor 5A-1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+223	Homo sapiens	9669	EIF5B	Eukaryotic translation initiation factor 5B	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+224	Homo sapiens	2023	ENO1	Alpha-enolase	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+225	Homo sapiens	7430	EZR	Ezrin	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+226	Homo sapiens	25940	FAM98A	Protein FAM98A	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+227	Homo sapiens	2091	FBL	rRNA 2-O-methyltransferase fibrillarin	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+228	Homo sapiens	81608	FIP1L1	Pre-mRNA 3-end-processing factor FIP1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+229	Homo sapiens	2483	FRG1	Protein FRG1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+230	Homo sapiens	8087	FXR1	Fragile X mental retardation syndrome-related protein 1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+231	Homo sapiens	10146	G3BP1	Ras GTPase-activating protein-binding protein 1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+232	Homo sapiens	9908	G3BP2	Ras GTPase-activating protein-binding protein 2	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+233	Homo sapiens	26354	GNL3	Guanine nucleotide-binding protein-like 3	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+234	Homo sapiens	23560	GTPBP4	Nucleolar GTP-binding protein 1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+235	Homo sapiens	3009	H1-5	Histone H1.5	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+236	Homo sapiens	3017	H2BC5	Histone H2B type 1-D	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+237	Homo sapiens	3065	HDAC1	Histone deacetylase 1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+238	Homo sapiens	55127	HEATR1	HEAT repeat-containing protein 1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+239	Homo sapiens	10949	HNRNPA0	Heterogeneous nuclear ribonucleoprotein A0	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+240	Homo sapiens	3178	HNRNPA1	Heterogeneous nuclear ribonucleoprotein A1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+241	Homo sapiens	3181	HNRNPA2B1	Heterogeneous nuclear ribonucleoproteins A2/B1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+242	Homo sapiens	220988	HNRNPA3	Heterogeneous nuclear ribonucleoprotein A3	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+243	Homo sapiens	3182	HNRNPAB	Heterogeneous nuclear ribonucleoprotein A/B	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+244	Homo sapiens	3183	HNRNPC	Heterogeneous nuclear ribonucleoproteins C1/C2	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+245	Homo sapiens	9987	HNRNPDL	Heterogeneous nuclear ribonucleoprotein D-like	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+246	Homo sapiens	3185	HNRNPF	Heterogeneous nuclear ribonucleoprotein F	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+247	Homo sapiens	3190	HNRNPK	Heterogeneous nuclear ribonucleoprotein K	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+248	Homo sapiens	3191	HNRNPL	Heterogeneous nuclear ribonucleoprotein L	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+249	Homo sapiens	4670	HNRNPM	Heterogeneous nuclear ribonucleoprotein M	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+250	Homo sapiens	11100	HNRNPUL1	Heterogeneous nuclear ribonucleoprotein U-like protein 1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+251	Homo sapiens	221092	HNRNPUL2	Heterogeneous nuclear ribonucleoprotein U-like protein 2	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+252	Homo sapiens	3326	HSP90AB1	Heat shock protein HSP 90-beta	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+253	Homo sapiens	3303	HSPA1A	Heat shock 70 kDa protein 1A/1B	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+254	Homo sapiens	3312	HSPA8	Heat shock cognate 71 kDa protein	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+255	Homo sapiens	10642	IGF2BP1	Insulin-like growth factor 2 mRNA-binding protein 1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+256	Homo sapiens	10643	IGF2BP3	Insulin-like growth factor 2 mRNA-binding protein 3	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+257	Homo sapiens	3608	ILF2	Interleukin enhancer-binding factor 2	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+258	Homo sapiens	3609	ILF3	Interleukin enhancer-binding factor 3	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+259	Homo sapiens	3837	KPNB1	Importin subunit beta-1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+260	Homo sapiens	23367	LARP1	La-related protein 1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+261	Homo sapiens	51520	LARS1	"Leucine--tRNA ligase, cytoplasmic"	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+262	Homo sapiens	3930	LBR	Lamin-B receptor	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+263	Homo sapiens	4172	MCM3	DNA replication licensing factor MCM3	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+264	Homo sapiens	4174	MCM5	DNA replication licensing factor MCM5	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+265	Homo sapiens	4288	MKI67	Antigen KI-67	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+266	Homo sapiens	4343	MOV10	Putative helicase MOV-10	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+267	Homo sapiens	10514	MYBBP1A	Myb-binding protein 1A	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+268	Homo sapiens	4627	MYH9	Myosin-9	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+269	Homo sapiens	55226	NAT10	N-acetyltransferase 10	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+270	Homo sapiens	57727	NCOA5	Nuclear receptor coactivator 5	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+271	Homo sapiens	84365	NIFK	MKI67 FHA domain-interacting nucleolar phosphoprotein	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+272	Homo sapiens	65083	NOL6	Nucleolar protein 6	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+273	Homo sapiens	4839	NOP2	Putative ribosomal RNA methyltransferase NOP2	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+274	Homo sapiens	10528	NOP56	Nucleolar protein 56	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+275	Homo sapiens	51602	NOP58	Nucleolar protein 58	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+276	Homo sapiens	10360	NPM3	Nucleoplasmin-3	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+277	Homo sapiens	5036	PA2G4	Proliferation-associated protein 2G4	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+278	Homo sapiens	26986	PABPC1	Polyadenylate-binding protein 1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+279	Homo sapiens	8761	PABPC4	Polyadenylate-binding protein 4	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+280	Homo sapiens	5093	PCBP1	Poly (rC)-binding protein 1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+281	Homo sapiens	5094	PCBP2	Poly (rC)-binding protein 2	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+282	Homo sapiens	22984	PDCD11	Protein RRP5 homolog	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+283	Homo sapiens	5216	PFN1	Profilin-1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+284	Homo sapiens	192111	PGAM5	"Serine/threonine-protein phosphatase PGAM5, mitochondrial"	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+285	Homo sapiens	5230	PGK1	Phosphoglycerate kinase 1;Phosphoglycerate kinase	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+286	Homo sapiens	26227	PHGDH	D-3-phosphoglycerate dehydrogenase	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+287	Homo sapiens	5315	PKM	Pyruvate kinase PKM	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+288	Homo sapiens	5339	PLEC	Plectin	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+289	Homo sapiens	5356	PLRG1	Pleiotropic regulator 1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+290	Homo sapiens	10940	POP1	Ribonucleases P/MRP protein subunit POP1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+291	Homo sapiens	5478	PPIA	Peptidyl-prolyl cis-trans isomerase A	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+292	Homo sapiens	5518	PPP2R1A	Serine/threonine-protein phosphatase 2A 65 kDa regulatory subunit A alpha isoform	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+293	Homo sapiens	5052	PRDX1	Peroxiredoxin-1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+294	Homo sapiens	27339	PRPF19	Pre-mRNA-processing factor 19	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+295	Homo sapiens	9129	PRPF3	U4/U6 small nuclear ribonucleoprotein Prp3	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+296	Homo sapiens	9128	PRPF4	U4/U6 small nuclear ribonucleoprotein Prp4	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+297	Homo sapiens	55660	PRPF40A	Pre-mRNA-processing factor 40 homolog A	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+298	Homo sapiens	10594	PRPF8	Pre-mRNA-processing-splicing factor 8	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+299	Homo sapiens	11168	PSIP1	PC4 and SFRS1-interacting protein	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+300	Homo sapiens	5725	PTBP1	Polypyrimidine tract-binding protein 1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+301	Homo sapiens	11137	PWP1	Periodic tryptophan protein 1 homolog	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+302	Homo sapiens	5822	PWP2	Periodic tryptophan protein 2 homolog	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+303	Homo sapiens	7879	RAB7A	Ras-related protein Rab-7a	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+304	Homo sapiens	5880	RAC2	Ras-related C3 botulinum toxin substrate 2	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+305	Homo sapiens	10399	RACK1	Guanine nucleotide-binding protein subunit beta-2-like 1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+306	Homo sapiens	22913	RALY	RNA-binding protein Raly	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+307	Homo sapiens	5917	RARS1	"Arginine--tRNA ligase, cytoplasmic"	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+308	Homo sapiens	5928	RBBP4	Histone-binding protein RBBP4	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+309	Homo sapiens	5930	RBBP6	E3 ubiquitin-protein ligase RBBP6	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+310	Homo sapiens	64783	RBM15	Putative RNA-binding protein 15	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+311	Homo sapiens	58517	RBM25	RNA-binding protein 25	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+312	Homo sapiens	9584	RBM39	RNA-binding protein 39	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+313	Homo sapiens	5936	RBM4	RNA-binding protein 4	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+314	Homo sapiens	27316	RBMX	"RNA-binding motif protein, X chromosome"	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+315	Homo sapiens	55920	RCC2	Protein RCC2	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+316	Homo sapiens	51493	RTCB	tRNA-splicing ligase RtcB homolog	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+317	Homo sapiens	51637	RTRAF	UPF0568 protein C14orf166	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+318	Homo sapiens	10856	RUVBL2	RuvB-like 2	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+319	Homo sapiens	6294	SAFB	Scaffold attachment factor B1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+320	Homo sapiens	9092	SART1	U4/U6.U5 tri-snRNP-associated protein 1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+321	Homo sapiens	9733	SART3	Squamous cell carcinoma antigen recognized by T-cells 3	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+322	Homo sapiens	26135	SERBP1	Plasminogen activator inhibitor 1 RNA-binding protein	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+323	Homo sapiens	292	SLC25A5	"ADP/ATP translocase 2;ADP/ATP translocase 2, N-terminally processed"	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+324	Homo sapiens	6597	SMARCA4	Transcription activator BRG1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+325	Homo sapiens	8467	SMARCA5	SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A member 5	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+326	Homo sapiens	27044	SND1	Staphylococcal nuclease domain-containing protein 1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+327	Homo sapiens	23020	SNRNP200	U5 small nuclear ribonucleoprotein 200 kDa helicase	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+328	Homo sapiens	6625	SNRNP70	U1 small nuclear ribonucleoprotein 70 kDa	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+329	Homo sapiens	6632	SNRPD1	Small nuclear ribonucleoprotein Sm D1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+330	Homo sapiens	6633	SNRPD2	Small nuclear ribonucleoprotein Sm D2	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+331	Homo sapiens	22938	SNW1	SNW domain-containing protein 1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+332	Homo sapiens	6651	SON	Protein SON	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+333	Homo sapiens	6727	SRP14	Signal recognition particle 14 kDa protein	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+334	Homo sapiens	6732	SRPK1	SRSF protein kinase 1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+335	Homo sapiens	23524	SRRM2	Serine/arginine repetitive matrix protein 2	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+336	Homo sapiens	10772	SRSF10	Serine/arginine-rich splicing factor 10	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+337	Homo sapiens	6432	SRSF7	Serine/arginine-rich splicing factor 7	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+338	Homo sapiens	6780	STAU1	Double-stranded RNA-binding protein Staufen homolog 1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+339	Homo sapiens	11171	STRAP	Serine-threonine kinase receptor-associated protein	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+340	Homo sapiens	10492	SYNCRIP	Heterogeneous nuclear ribonucleoprotein Q	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+341	Homo sapiens	8148	TAF15	TATA-binding protein-associated factor 2N	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+342	Homo sapiens	6897	TARS1	"Threonine--tRNA ligase, cytoplasmic"	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+343	Homo sapiens	10607	TBL3	Transducin beta-like protein 3	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+344	Homo sapiens	6950	TCP1	T-complex protein 1 subunit alpha	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+345	Homo sapiens	9967	THRAP3	Thyroid hormone receptor-associated protein 3	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+346	Homo sapiens	6434	TRA2B	Transformer-2 protein homolog beta	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+347	Homo sapiens	55720	TSR1	Pre-rRNA-processing protein TSR1 homolog	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+348	Homo sapiens	11338	U2AF2	Splicing factor U2AF 65 kDa subunit	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+349	Homo sapiens	23350	U2SURP	U2 snRNP-associated SURP motif-containing protein	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+350	Homo sapiens	29128	UHRF1	E3 ubiquitin-protein ligase UHRF1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+351	Homo sapiens	5976	UPF1	Regulator of nonsense transcripts 1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+352	Homo sapiens	9100	USP10	Ubiquitin carboxyl-terminal hydrolase 10	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+353	Homo sapiens	10813	UTP14A	U3 small nucleolar RNA-associated protein 14 homolog A	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+354	Homo sapiens	7407	VARS1	Valine--tRNA ligase	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+355	Homo sapiens	7417	VDAC2	Voltage-dependent anion-selective channel protein 2	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+356	Homo sapiens	7431	VIM	Vimentin	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+357	Homo sapiens	10885	WDR3	WD repeat-containing protein 3	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+358	Homo sapiens	134430	WDR36	WD repeat-containing protein 36	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+359	Homo sapiens	4904	YBX1	Nuclease-sensitive element-binding protein 1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+360	Homo sapiens	8531	YBX3	Y-box-binding protein 3	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+361	Homo sapiens	7531	YWHAE	14-3-3 protein epsilon	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+362	Homo sapiens	9877	ZC3H11A	Zinc finger CCCH domain-containing protein 11A	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+363	Homo sapiens	55854	ZC3H15	Zinc finger CCCH domain-containing protein 15	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+364	Homo sapiens	56829	ZC3HAV1	Zinc finger CCCH-type antiviral protein 1	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+365	Homo sapiens	51663	ZFR	Zinc finger RNA-binding protein	"HTS (29742442, 30108179)"	4	"29742442, 30108179"	-
+366	Homo sapiens	16	AARS1	"Alanine--tRNA ligase, cytoplasmic"	HTS (30108179)	5	30108179	-
+367	Homo sapiens	26574	AATF	Protein AATF	HTS (29742442)	5	29742442	-
+368	Homo sapiens	6059	ABCE1	ATP-binding cassette sub-family E member 1	HTS (30108179)	5	30108179	-
+369	Homo sapiens	10061	ABCF2	ATP-binding cassette sub-family F member 2	HTS (30108179)	5	30108179	-
+370	Homo sapiens	31	ACACA	Acetyl-CoA carboxylase 1	HTS (30108179)	5	30108179	-
+371	Homo sapiens	37	ACADVL	"Very long-chain specific acyl-CoA dehydrogenase, mitochondrial"	HTS (30108179)	5	30108179	-
+372	Homo sapiens	9744	ACAP1	"Arf-GAP with coiled-coil, ANK repeat and PH domain-containing protein 1"	HTS (30108179)	5	30108179	-
+373	Homo sapiens	38	ACAT1	"Acetyl-CoA acetyltransferase, mitochondrial"	HTS (30108179)	5	30108179	-
+374	Homo sapiens	47	ACLY	ATP-citrate synthase	HTS (30108179)	5	30108179	-
+375	Homo sapiens	50	ACO2	"Aconitate hydratase, mitochondrial"	HTS (30108179)	5	30108179	-
+376	Homo sapiens	52	ACP1	Low molecular weight phosphotyrosine protein phosphatase	HTS (30108179)	5	30108179	-
+377	Homo sapiens	60	ACTB	"Actin, cytoplasmic 1;Actin, cytoplasmic 1, N-terminally processed"	HTS (30108179)	5	30108179	-
+378	Homo sapiens	10096	ACTR3	Actin-related protein 3	HTS (30108179)	5	30108179	-
+379	Homo sapiens	105	ADARB2	Double-stranded RNA-specific editase B2	HTS (29742442)	5	29742442	-
+380	Homo sapiens	55750	AGK	"Acylglycerol kinase, mitochondrial"	HTS (30108179)	5	30108179	-
+381	Homo sapiens	8540	AGPS	"Alkyldihydroxyacetonephosphate synthase, peroxisomal"	HTS (30108179)	5	30108179	-
+382	Homo sapiens	25909	AHCTF1	Protein ELYS	HTS (29742442)	5	29742442	-
+383	Homo sapiens	191	AHCY	Adenosylhomocysteinase	HTS (30108179)	5	30108179	-
+384	Homo sapiens	79026	AHNAK	Neuroblast differentiation-associated protein AHNAK	HTS (30108179)	5	30108179	-
+385	Homo sapiens	10598	AHSA1	Activator of 90 kDa heat shock protein ATPase homolog 1	HTS (30108179)	5	30108179	-
+386	Homo sapiens	9131	AIFM1	"Apoptosis-inducing factor 1, mitochondrial"	HTS (30108179)	5	30108179	-
+387	Homo sapiens	9255	AIMP1	Aminoacyl tRNA synthase complex-interacting multifunctional protein 1	HTS (30108179)	5	30108179	-
+388	Homo sapiens	7965	AIMP2	Aminoacyl tRNA synthase complex-interacting multifunctional protein 2	HTS (30108179)	5	30108179	-
+389	Homo sapiens	8227	AKAP17A	A-kinase anchor protein 17A	HTS (29742442)	5	29742442	-
+390	Homo sapiens	231	AKR1B1	Aldose reductase	HTS (29742442)	5	29742442	-
+391	Homo sapiens	441282	AKR1B15	Aldo-keto reductase family 1 member B15	HTS (29742442)	5	29742442	-
+392	Homo sapiens	5832	ALDH18A1	Delta-1-pyrroline-5-carboxylate synthase	HTS (30108179)	5	30108179	-
+393	Homo sapiens	54882	ANKHD1	Ankyrin repeat and KH domain-containing protein 1	HTS (30108179)	5	30108179	-
+394	Homo sapiens	26057	ANKRD17	Ankyrin repeat domain-containing protein 17	HTS (30108179)	5	30108179	-
+395	Homo sapiens	302	ANXA2	Annexin;Annexin A2;Putative annexin A2-like protein	HTS (30108179)	5	30108179	-
+396	Homo sapiens	309	ANXA6	Annexin A6	HTS (30108179)	5	30108179	-
+397	Homo sapiens	160	AP2A1	AP-2 complex subunit alpha-1	HTS (30108179)	5	30108179	-
+398	Homo sapiens	163	AP2B1	AP-2 complex subunit beta	HTS (30108179)	5	30108179	-
+399	Homo sapiens	1173	AP2M1	AP-2 complex subunit mu	HTS (29742442)	5	29742442	-
+400	Homo sapiens	8546	AP3B1	AP-3 complex subunit beta-1	HTS (30108179)	5	30108179	-
+401	Homo sapiens	8943	AP3D1	AP-3 complex subunit delta-1	HTS (30108179)	5	30108179	-
+402	Homo sapiens	8539	API5	Apoptosis inhibitor 5	HTS (30108179)	5	30108179	-
+403	Homo sapiens	9582	APOBEC3B	DNA dC->dU-editing enzyme APOBEC-3B	HTS (29742442)	5	29742442	-
+404	Homo sapiens	140564	APOBEC3D	DNA dC->dU-editing enzyme APOBEC-3D	HTS (29742442)	5	29742442	-
+405	Homo sapiens	372	ARCN1	Coatomer subunit delta	HTS (30108179)	5	30108179	-
+406	Homo sapiens	375	ARF1	ADP-ribosylation factor 1	HTS (29742442)	5	29742442	-
+407	Homo sapiens	377	ARF3	ADP-ribosylation factor 3	HTS (29742442)	5	29742442	-
+408	Homo sapiens	378	ARF4	ADP-ribosylation factor 4	HTS (30108179)	5	30108179	-
+409	Homo sapiens	55082	ARGLU1	Arginine and glutamate-rich protein 1	HTS (29742442)	5	29742442	-
+410	Homo sapiens	55114	ARHGAP17	Rho GTPase-activating protein 17	HTS (30108179)	5	30108179	-
+411	Homo sapiens	393	ARHGAP4	Rho GTPase-activating protein 4	HTS (30108179)	5	30108179	-
+412	Homo sapiens	9138	ARHGEF1	Rho guanine nucleotide exchange factor 1	HTS (30108179)	5	30108179	-
+413	Homo sapiens	9181	ARHGEF2	Rho guanine nucleotide exchange factor 2	HTS (30108179)	5	30108179	-
+414	Homo sapiens	10109	ARPC2	Actin-related protein 2/3 complex subunit 2	HTS (30108179)	5	30108179	-
+415	Homo sapiens	10973	ASCC3	Activating signal cointegrator 1 complex subunit 3	HTS (30108179)	5	30108179	-
+416	Homo sapiens	440	ASNS	Asparagine synthetase [glutamine-hydrolyzing]	HTS (29742442)	5	29742442	-
+417	Homo sapiens	55210	ATAD3A	ATPase family AAA domain-containing protein 3A	HTS (30108179)	5	30108179	-
+418	Homo sapiens	471	ATIC	Bifunctional purine biosynthesis protein ATIC	HTS (30108179)	5	30108179	-
+419	Homo sapiens	488	ATP2A2	Sarcoplasmic/endoplasmic reticulum calcium ATPase 2	HTS (30108179)	5	30108179	-
+420	Homo sapiens	498	ATP5F1A	"ATP synthase subunit alpha, mitochondrial"	HTS (30108179)	5	30108179	-
+421	Homo sapiens	506	ATP5F1B	"ATP synthase subunit beta, mitochondrial"	HTS (30108179)	5	30108179	-
+422	Homo sapiens	509	ATP5F1C	"ATP synthase subunit gamma, mitochondrial"	HTS (30108179)	5	30108179	-
+423	Homo sapiens	10632	ATP5MG	ATP5MG	HTS (30108179)	5	30108179	-
+424	Homo sapiens	515	ATP5PB	"ATP synthase F (0) complex subunit B1, mitochondrial"	HTS (30108179)	5	30108179	-
+425	Homo sapiens	10476	ATP5PD	"ATP synthase subunit d, mitochondrial"	HTS (30108179)	5	30108179	-
+426	Homo sapiens	539	ATP5PO	"ATP synthase subunit O, mitochondrial"	HTS (30108179)	5	30108179	-
+427	Homo sapiens	9212	AURKB	Aurora kinase B	HTS (29742442)	5	29742442	-
+428	Homo sapiens	9031	BAZ1B	Tyrosine-protein kinase BAZ1B	HTS (29742442)	5	29742442	-
+429	Homo sapiens	11176	BAZ2A	Bromodomain adjacent to zinc finger domain protein 2A	HTS (29742442)	5	29742442	-
+430	Homo sapiens	9774	BCLAF1	Bcl-2-associated transcription factor 1	HTS (30108179)	5	30108179	-
+431	Homo sapiens	9790	BMS1	Ribosome biogenesis protein BMS1 homolog	HTS (29742442)	5	29742442	-
+432	Homo sapiens	23246	BOP1	Ribosome biogenesis protein BOP1	HTS (29742442)	5	29742442	-
+433	Homo sapiens	29117	BRD7	Bromodomain-containing protein 7	HTS (29742442)	5	29742442	-
+434	Homo sapiens	65980	BRD9	Bromodomain-containing protein 9	HTS (29742442)	5	29742442	-
+435	Homo sapiens	55299	BRIX1	Ribosome biogenesis protein BRX1 homolog	HTS (29742442)	5	29742442	-
+436	Homo sapiens	8896	BUD31	Protein BUD31 homolog	HTS (30108179)	5	30108179	-
+437	Homo sapiens	79169	C1orf35	Multiple myeloma tumor-associated protein 2	HTS (29742442)	5	29742442	-
+438	Homo sapiens	708	C1QBP	"Complement component 1 Q subcomponent-binding protein, mitochondrial"	HTS (30108179)	5	30108179	-
+439	Homo sapiens	84310	C7orf50	Uncharacterized protein C7orf50	HTS (29742442)	5	29742442	-
+440	Homo sapiens	27101	CACYBP	Calcyclin-binding protein	HTS (30108179)	5	30108179	-
+441	Homo sapiens	790	CAD	CAD protein	HTS (30108179)	5	30108179	-
+442	Homo sapiens	55832	CAND1	Cullin-associated NEDD8-dissociated protein 1	HTS (30108179)	5	30108179	-
+443	Homo sapiens	821	CANX	Calnexin	HTS (30108179)	5	30108179	-
+444	Homo sapiens	10487	CAP1	Adenylyl cyclase-associated protein 1	HTS (30108179)	5	30108179	-
+445	Homo sapiens	4076	CAPRIN1	Caprin-1	HTS (30108179)	5	30108179	-
+446	Homo sapiens	829	CAPZA1	F-actin-capping protein subunit alpha-1	HTS (30108179)	5	30108179	-
+447	Homo sapiens	832	CAPZB	F-actin-capping protein subunit beta	HTS (30108179)	5	30108179	-
+448	Homo sapiens	11335	CBX3	Chromobox protein homolog 3	HTS (29742442)	5	29742442	-
+449	Homo sapiens	23468	CBX5	Chromobox protein homolog 5	HTS (29742442)	5	29742442	-
+450	Homo sapiens	57332	CBX8	Chromobox protein homolog 8	HTS (29742442)	5	29742442	-
+451	Homo sapiens	55749	CCAR1	Cell division cycle and apoptosis regulator protein 1	HTS (30108179)	5	30108179	-
+452	Homo sapiens	57805	CCAR2	Cell cycle and apoptosis regulator protein 2	HTS (30108179)	5	30108179	-
+453	Homo sapiens	115098	CCDC124	Coiled-coil domain-containing protein 124	HTS (30108179)	5	30108179	-
+454	Homo sapiens	339230	CCDC137	Coiled-coil domain-containing protein 137	HTS (29742442)	5	29742442	-
+455	Homo sapiens	57003	CCDC47	Coiled-coil domain-containing protein 47	HTS (30108179)	5	30108179	-
+456	Homo sapiens	29080	CCDC59	Thyroid transcription factor 1-associated protein 26	HTS (29742442)	5	29742442	-
+457	Homo sapiens	79080	CCDC86	Coiled-coil domain-containing protein 86	HTS (29742442)	5	29742442	-
+458	Homo sapiens	904	CCNT1	Cyclin-T1	HTS (30108179)	5	30108179	-
+459	Homo sapiens	22948	CCT5	T-complex protein 1 subunit epsilon	HTS (30108179)	5	30108179	-
+460	Homo sapiens	10574	CCT7	T-complex protein 1 subunit eta	HTS (30108179)	5	30108179	-
+461	Homo sapiens	51362	CDC40	Pre-mRNA-processing factor 17	HTS (29742442)	5	29742442	-
+462	Homo sapiens	55143	CDCA8	Borealin	HTS (29742442)	5	29742442	-
+463	Homo sapiens	983	CDK1	Cyclin-dependent kinase 1	HTS (30108179)	5	30108179	-
+464	Homo sapiens	9425	CDYL	Chromodomain Y-like protein	HTS (29742442)	5	29742442	-
+465	Homo sapiens	124359	CDYL2	Chromodomain Y-like protein 2	HTS (29742442)	5	29742442	-
+466	Homo sapiens	10153	CEBPZ	CCAAT/enhancer-binding protein zeta	HTS (29742442)	5	29742442	-
+467	Homo sapiens	1060	CENPC	Centromere protein C 1	HTS (29742442)	5	29742442	-
+468	Homo sapiens	201161	CENPV	Centromere protein V	HTS (29742442)	5	29742442	-
+469	Homo sapiens	8208	CHAF1B	Chromatin assembly factor 1 subunit B	HTS (30108179)	5	30108179	-
+470	Homo sapiens	1108	CHD4	Chromodomain-helicase-DNA-binding protein 4	HTS (30108179)	5	30108179	-
+471	Homo sapiens	10523	CHERP	Calcium homeostasis endoplasmic reticulum protein	HTS (30108179)	5	30108179	-
+472	Homo sapiens	26097	CHTOP	Chromatin target of PRMT1 protein	HTS (29742442)	5	29742442	-
+473	Homo sapiens	1153	CIRBP	Cold-inducible RNA-binding protein	HTS (30108179)	5	30108179	-
+474	Homo sapiens	9793	CKAP5	Cytoskeleton-associated protein 5	HTS (30108179)	5	30108179	-
+475	Homo sapiens	23332	CLASP1	CLIP-associating protein 1	HTS (30108179)	5	30108179	-
+476	Homo sapiens	25932	CLIC4	Chloride intracellular channel protein 4	HTS (29742442)	5	29742442	-
+477	Homo sapiens	9685	CLINT1	Clathrin interactor 1	HTS (30108179)	5	30108179	-
+478	Homo sapiens	7461	CLIP2	CAP-Gly domain-containing linker protein 2	HTS (30108179)	5	30108179	-
+479	Homo sapiens	23277	CLUH	Clustered mitochondria protein homolog	HTS (30108179)	5	30108179	-
+480	Homo sapiens	8161	COIL	Coilin	HTS (29742442)	5	29742442	-
+481	Homo sapiens	1314	COPA	Coatomer subunit alpha	HTS (30108179)	5	30108179	-
+482	Homo sapiens	1315	COPB1	Coatomer subunit beta	HTS (30108179)	5	30108179	-
+483	Homo sapiens	9276	COPB2	Coatomer subunit beta	HTS (30108179)	5	30108179	-
+484	Homo sapiens	23603	CORO1C	Coronin-1C	HTS (30108179)	5	30108179	-
+485	Homo sapiens	29894	CPSF1	Cleavage and polyadenylation specificity factor subunit 1	HTS (30108179)	5	30108179	-
+486	Homo sapiens	79869	CPSF7	Cleavage and polyadenylation specificity factor subunit 7	HTS (30108179)	5	30108179	-
+487	Homo sapiens	51340	CRNKL1	Crooked neck-like protein 1	HTS (29742442)	5	29742442	-
+488	Homo sapiens	1429	CRYZ	Quinone oxidoreductase	HTS (30108179)	5	30108179	-
+489	Homo sapiens	1431	CS	"Citrate synthase, mitochondrial"	HTS (30108179)	5	30108179	-
+490	Homo sapiens	7812	CSDE1	Cold shock domain-containing protein E1	HTS (30108179)	5	30108179	-
+491	Homo sapiens	1434	CSE1L	Exportin-2	HTS (30108179)	5	30108179	-
+492	Homo sapiens	1452	CSNK1A1	Casein kinase I isoform alpha	HTS (30108179)	5	30108179	-
+493	Homo sapiens	1457	CSNK2A1	Casein kinase II subunit alpha	HTS (30108179)	5	30108179	-
+494	Homo sapiens	1459	CSNK2A2	Casein kinase II subunit alpha	HTS (30108179)	5	30108179	-
+495	Homo sapiens	10664	CTCF	Transcriptional repressor CTCF	HTS (29742442)	5	29742442	-
+496	Homo sapiens	1503	CTPS1	CTP synthase 1	HTS (30108179)	5	30108179	-
+497	Homo sapiens	8452	CUL3	Cullin-3	HTS (30108179)	5	30108179	-
+498	Homo sapiens	8451	CUL4A	Cullin-4A	HTS (30108179)	5	30108179	-
+499	Homo sapiens	54883	CWC25	Pre-mRNA-splicing factor CWC25 homolog	HTS (29742442)	5	29742442	-
+500	Homo sapiens	26999	CYFIP2	Cytoplasmic FMR1-interacting protein 2	HTS (30108179)	5	30108179	-
+501	Homo sapiens	7818	DAP3	"28S ribosomal protein S29, mitochondrial"	HTS (30108179)	5	30108179	-
+502	Homo sapiens	26528	DAZAP1	DAZ-associated protein 1	HTS (30108179)	5	30108179	-
+503	Homo sapiens	25879	DCAF13	DDB1- and CUL4-associated factor 13	HTS (29742442)	5	29742442	-
+504	Homo sapiens	1650	DDOST	Dolichyl-diphosphooligosaccharide--protein glycosyltransferase 48 kDa subunit	HTS (30108179)	5	30108179	-
+505	Homo sapiens	57062	DDX24	ATP-dependent RNA helicase DDX24	HTS (29742442)	5	29742442	-
+506	Homo sapiens	55661	DDX27	Probable ATP-dependent RNA helicase DDX27	HTS (29742442)	5	29742442	-
+507	Homo sapiens	64794	DDX31	Probable ATP-dependent RNA helicase DDX31	HTS (29742442)	5	29742442	-
+508	Homo sapiens	10212	DDX39A	ATP-dependent RNA helicase DDX39A	HTS (29742442)	5	29742442	-
+509	Homo sapiens	8653	DDX3Y	ATP-dependent RNA helicase DDX3Y	HTS (29742442)	5	29742442	-
+510	Homo sapiens	54555	DDX49	Probable ATP-dependent RNA helicase DDX49	HTS (30108179)	5	30108179	-
+511	Homo sapiens	79009	DDX50	ATP-dependent RNA helicase DDX50	HTS (29742442)	5	29742442	-
+512	Homo sapiens	11056	DDX52	Probable ATP-dependent RNA helicase DDX52	HTS (29742442)	5	29742442	-
+513	Homo sapiens	79039	DDX54	ATP-dependent RNA helicase DDX54	HTS (29742442)	5	29742442	-
+514	Homo sapiens	54606	DDX56	Probable ATP-dependent RNA helicase DDX56	HTS (29742442)	5	29742442	-
+515	Homo sapiens	23586	DDX58	Probable ATP-dependent RNA helicase DDX58	HTS (30108179)	5	30108179	-
+516	Homo sapiens	1666	DECR1	"2, 4-dienoyl-CoA reductase, mitochondrial"	HTS (30108179)	5	30108179	-
+517	Homo sapiens	7913	DEK	Protein DEK	HTS (29742442)	5	29742442	-
+518	Homo sapiens	22898	DENND3	DENN domain-containing protein 3	HTS (30108179)	5	30108179	-
+519	Homo sapiens	1665	DHX15	Putative pre-mRNA-splicing factor ATP-dependent RNA helicase DHX15	HTS (29742442)	5	29742442	-
+520	Homo sapiens	8449	DHX16	Putative pre-mRNA-splicing factor ATP-dependent RNA helicase DHX16	HTS (30108179)	5	30108179	-
+521	Homo sapiens	54505	DHX29	ATP-dependent RNA helicase DHX29	HTS (30108179)	5	30108179	-
+522	Homo sapiens	57647	DHX37	Probable ATP-dependent RNA helicase DHX37	HTS (30108179)	5	30108179	-
+523	Homo sapiens	9785	DHX38	Pre-mRNA-splicing factor ATP-dependent RNA helicase PRP16	HTS (30108179)	5	30108179	-
+524	Homo sapiens	1729	DIAPH1	Protein diaphanous homolog 1	HTS (30108179)	5	30108179	-
+525	Homo sapiens	27292	DIMT1	Probable dimethyladenosine transferase	HTS (30108179)	5	30108179	-
+526	Homo sapiens	22894	DIS3	Exosome complex exonuclease RRP44	HTS (30108179)	5	30108179	-
+527	Homo sapiens	115752	DIS3L	DIS3-like exonuclease 1	HTS (30108179)	5	30108179	-
+528	Homo sapiens	3301	DNAJA1	DnaJ homolog subfamily A member 1	HTS (30108179)	5	30108179	-
+529	Homo sapiens	23317	DNAJC13	DnaJ homolog subfamily C member 13	HTS (30108179)	5	30108179	-
+530	Homo sapiens	27000	DNAJC2	DnaJ homolog subfamily C member 2	HTS (30108179)	5	30108179	-
+531	Homo sapiens	22826	DNAJC8	DnaJ homolog subfamily C member 8	HTS (30108179)	5	30108179	-
+532	Homo sapiens	30836	DNTTIP2	Deoxynucleotidyltransferase terminal-interacting protein 2	HTS (29742442)	5	29742442	-
+533	Homo sapiens	55619	DOCK10	Dedicator of cytokinesis protein 10	HTS (30108179)	5	30108179	-
+534	Homo sapiens	1794	DOCK2	Dedicator of cytokinesis protein 2	HTS (30108179)	5	30108179	-
+535	Homo sapiens	81704	DOCK8	Dedicator of cytokinesis protein 8	HTS (30108179)	5	30108179	-
+536	Homo sapiens	56896	DPYSL5	Dihydropyrimidinase-related protein 5	HTS (29742442)	5	29742442	-
+537	Homo sapiens	4733	DRG1	Developmentally-regulated GTP-binding protein 1	HTS (30108179)	5	30108179	-
+538	Homo sapiens	1828	DSG1	Desmoglein-1	HTS (30108179)	5	30108179	-
+539	Homo sapiens	1832	DSP	Desmoplakin	HTS (30108179)	5	30108179	-
+540	Homo sapiens	1778	DYNC1H1	Cytoplasmic dynein 1 heavy chain 1	HTS (30108179)	5	30108179	-
+541	Homo sapiens	10969	EBNA1BP2	Probable rRNA-processing protein EBP2	HTS (29742442)	5	29742442	-
+542	Homo sapiens	158078	EEF1A1P5	Putative elongation factor 1-alpha-like 3	HTS (29742442)	5	29742442	-
+543	Homo sapiens	1933	EEF1B2	Elongation factor 1-beta	HTS (30108179)	5	30108179	-
+544	Homo sapiens	1936	EEF1D	Elongation factor 1-delta	HTS (30108179)	5	30108179	-
+545	Homo sapiens	60678	EEFSEC	Selenocysteine-specific elongation factor	HTS (30108179)	5	30108179	-
+546	Homo sapiens	10938	EHD1	EH domain-containing protein 1	HTS (30108179)	5	30108179	-
+547	Homo sapiens	30844	EHD4	EH domain-containing protein 4	HTS (30108179)	5	30108179	-
+548	Homo sapiens	8890	EIF2B4	Translation initiation factor eIF-2B subunit delta	HTS (30108179)	5	30108179	-
+549	Homo sapiens	1939	EIF2D	Eukaryotic translation initiation factor 2D	HTS (30108179)	5	30108179	-
+550	Homo sapiens	8894	EIF2S2	Eukaryotic translation initiation factor 2 subunit 2	HTS (30108179)	5	30108179	-
+551	Homo sapiens	255308	EIF2S3B	Putative eukaryotic translation initiation factor 2 subunit 3-like protein	HTS (29742442)	5	29742442	-
+552	Homo sapiens	8661	EIF3A	Eukaryotic translation initiation factor 3 subunit A	HTS (30108179)	5	30108179	-
+553	Homo sapiens	8662	EIF3B	Eukaryotic translation initiation factor 3 subunit B	HTS (30108179)	5	30108179	-
+554	Homo sapiens	8663	EIF3C	Eukaryotic translation initiation factor 3 subunit C	HTS (30108179)	5	30108179	-
+555	Homo sapiens	8665	EIF3F	Eukaryotic translation initiation factor 3 subunit F	HTS (29742442)	5	29742442	-
+556	Homo sapiens	8668	EIF3I	Eukaryotic translation initiation factor 3 subunit I	HTS (29742442)	5	29742442	-
+557	Homo sapiens	51386	EIF3L	Eukaryotic translation initiation factor 3 subunit L	HTS (30108179)	5	30108179	-
+558	Homo sapiens	1974	EIF4A2	Eukaryotic initiation factor 4A-II	HTS (29742442)	5	29742442	-
+559	Homo sapiens	1981	EIF4G1	Eukaryotic translation initiation factor 4 gamma 1	HTS (30108179)	5	30108179	-
+560	Homo sapiens	1982	EIF4G2	Eukaryotic translation initiation factor 4 gamma 2	HTS (30108179)	5	30108179	-
+561	Homo sapiens	56648	EIF5A2	Eukaryotic translation initiation factor 5A-2	HTS (29742442)	5	29742442	-
+562	Homo sapiens	143244	EIF5AL1	Eukaryotic translation initiation factor 5A-1-like	HTS (29742442)	5	29742442	-
+563	Homo sapiens	3692	EIF6	Eukaryotic translation initiation factor 6	HTS (29742442)	5	29742442	-
+564	Homo sapiens	1994	ELAVL1	ELAV-like protein 1	HTS (29742442)	5	29742442	-
+565	Homo sapiens	23065	EMC1	ER membrane protein complex subunit 1	HTS (30108179)	5	30108179	-
+566	Homo sapiens	2010	EMD	Emerin	HTS (30108179)	5	30108179	-
+567	Homo sapiens	10436	EMG1	Ribosomal RNA small subunit methyltransferase NEP1	HTS (29742442)	5	29742442	-
+568	Homo sapiens	27436	EML4	Echinoderm microtubule-associated protein-like 4	HTS (30108179)	5	30108179	-
+569	Homo sapiens	2051	EPHB6	Ephrin type-B receptor 6	HTS (29742442)	5	29742442	-
+570	Homo sapiens	83481	EPPK1	Epiplakin	HTS (29742442)	5	29742442	-
+571	Homo sapiens	2058	EPRS1	Bifunctional glutamate/proline--tRNA ligase	HTS (30108179)	5	30108179	-
+572	Homo sapiens	2059	EPS8	Epidermal growth factor receptor kinase substrate 8	HTS (30108179)	5	30108179	-
+573	Homo sapiens	2079	ERH	Enhancer of rudimentary homolog	HTS (29742442)	5	29742442	-
+574	Homo sapiens	23344	ESYT1	Extended synaptotagmin-1	HTS (30108179)	5	30108179	-
+575	Homo sapiens	2107	ETF1	Eukaryotic peptide chain release factor subunit 1	HTS (30108179)	5	30108179	-
+576	Homo sapiens	54512	EXOSC4	Exosome complex component RRP41	HTS (30108179)	5	30108179	-
+577	Homo sapiens	118460	EXOSC6	Exosome complex component MTR3	HTS (30108179)	5	30108179	-
+578	Homo sapiens	5393	EXOSC9	Exosome complex component RRP45	HTS (30108179)	5	30108179	-
+579	Homo sapiens	23196	FAM120A	Constitutive coactivator of PPAR-gamma-like protein 1	HTS (30108179)	5	30108179	-
+580	Homo sapiens	283742	FAM98B	Protein FAM98B	HTS (30108179)	5	30108179	-
+581	Homo sapiens	2193	FARSA	Phenylalanine--tRNA ligase alpha subunit	HTS (30108179)	5	30108179	-
+582	Homo sapiens	10056	FARSB	Phenylalanine--tRNA ligase beta subunit	HTS (30108179)	5	30108179	-
+583	Homo sapiens	2194	FASN	3-oxoacyl-[acyl-carrier-protein] reductase	HTS (30108179)	5	30108179	-
+584	Homo sapiens	79791	FBXO31	F-box only protein 31	HTS (29742442)	5	29742442	-
+585	Homo sapiens	51077	FCF1	rRNA-processing protein FCF1 homolog	HTS (29742442)	5	29742442	-
+586	Homo sapiens	2287	FKBP3	Peptidyl-prolyl cis-trans isomerase FKBP3	HTS (30108179)	5	30108179	-
+587	Homo sapiens	2288	FKBP4	Peptidyl-prolyl cis-trans isomerase FKBP4	HTS (29742442)	5	29742442	-
+588	Homo sapiens	388698	FLG2	Filaggrin-2	HTS (30108179)	5	30108179	-
+589	Homo sapiens	2314	FLII	Protein flightless-1 homolog	HTS (30108179)	5	30108179	-
+590	Homo sapiens	2316	FLNA	Filamin-A	HTS (30108179)	5	30108179	-
+591	Homo sapiens	154791	FMC1	UPF0562 protein C7orf55	HTS (29742442)	5	29742442	-
+592	Homo sapiens	752	FMNL1	Formin-like protein 1	HTS (30108179)	5	30108179	-
+593	Homo sapiens	2335	FN1	Fibronectin	HTS (30108179)	5	30108179	-
+594	Homo sapiens	23048	FNBP1	Formin-binding protein 1	HTS (30108179)	5	30108179	-
+595	Homo sapiens	6624	FSCN1	Fascin	HTS (30108179)	5	30108179	-
+596	Homo sapiens	117246	FTSJ3	pre-rRNA processing protein FTSJ3	HTS (29742442)	5	29742442	-
+597	Homo sapiens	8880	FUBP1	Far upstream element-binding protein 1	HTS (30108179)	5	30108179	-
+598	Homo sapiens	8939	FUBP3	Far upstream element-binding protein 3	HTS (30108179)	5	30108179	-
+599	Homo sapiens	2597	GAPDH	Glyceraldehyde-3-phosphate dehydrogenase	HTS (30108179)	5	30108179	-
+600	Homo sapiens	54433	GAR1	H/ACA ribonucleoprotein complex subunit 1	HTS (29742442)	5	29742442	-
+601	Homo sapiens	2617	GARS1	Glycine--tRNA ligase	HTS (30108179)	5	30108179	-
+602	Homo sapiens	2618	GART	Trifunctional purine biosynthetic protein adenosine-3	HTS (30108179)	5	30108179	-
+603	Homo sapiens	10985	GCN1	Translational activator GCN1	HTS (30108179)	5	30108179	-
+604	Homo sapiens	25929	GEMIN5	Gem-associated protein 5	HTS (30108179)	5	30108179	-
+605	Homo sapiens	2673	GFPT1	Glutamine--fructose-6-phosphate aminotransferase [isomerizing] 1	HTS (30108179)	5	30108179	-
+606	Homo sapiens	26058	GIGYF2	PERQ amino acid-rich with GYF domain-containing protein 2	HTS (30108179)	5	30108179	-
+607	Homo sapiens	2771	GNAI2	Guanine nucleotide-binding protein G (i) subunit alpha-2	HTS (30108179)	5	30108179	-
+608	Homo sapiens	2773	GNAI3	Guanine nucleotide-binding protein G (k) subunit alpha	HTS (29742442)	5	29742442	-
+609	Homo sapiens	2782	GNB1	Guanine nucleotide-binding protein G (I)/G (S)/G (T) subunit beta-1	HTS (29742442)	5	29742442	-
+610	Homo sapiens	2783	GNB2	Guanine nucleotide-binding protein G (I)/G (S)/G (T) subunit beta-2	HTS (29742442)	5	29742442	-
+611	Homo sapiens	29889	GNL2	Nucleolar GTP-binding protein 2	HTS (29742442)	5	29742442	-
+612	Homo sapiens	54552	GNL3L	Guanine nucleotide-binding protein-like 3-like protein	HTS (29742442)	5	29742442	-
+613	Homo sapiens	2801	GOLGA2	Golgin subfamily A member 2	HTS (30108179)	5	30108179	-
+614	Homo sapiens	54865	GPATCH4	G patch domain-containing protein 4	HTS (29742442)	5	29742442	-
+615	Homo sapiens	83743	GRWD1	Glutamate-rich WD repeat-containing protein 1	HTS (29742442)	5	29742442	-
+616	Homo sapiens	2959	GTF2B	Transcription initiation factor IIB	HTS (30108179)	5	30108179	-
+617	Homo sapiens	2962	GTF2F1	General transcription factor IIF subunit 1	HTS (30108179)	5	30108179	-
+618	Homo sapiens	2969	GTF2I	General transcription factor II-I	HTS (30108179)	5	30108179	-
+619	Homo sapiens	3005	H1-0	Histone H1.0	HTS (29742442)	5	29742442	-
+620	Homo sapiens	3024	H1-1	Histone H1.1	HTS (29742442)	5	29742442	-
+621	Homo sapiens	8971	H1-10	Histone H1.10	HTS (29742442)	5	29742442	-
+622	Homo sapiens	3006	H1-2	Histone H1.2	HTS (29742442)	5	29742442	-
+623	Homo sapiens	3007	H1-3	Histone H1.3	HTS (29742442)	5	29742442	-
+624	Homo sapiens	8969	H2AC11	Histone H2A type 1	HTS (29742442)	5	29742442	-
+625	Homo sapiens	85235	H2AC12	Histone H2A type 1-H	HTS (29742442)	5	29742442	-
+626	Homo sapiens	8331	H2AC14	H2AC12	HTS (29742442)	5	29742442	-
+627	Homo sapiens	8337	H2AC18	Histone H2A type 2-A	HTS (29742442)	5	29742442	-
+628	Homo sapiens	8338	H2AC20	Histone H2A type 2-C	HTS (29742442)	5	29742442	-
+629	Homo sapiens	8335	H2AC4	Histone H2A type 1-B/E	HTS (29742442)	5	29742442	-
+630	Homo sapiens	8334	H2AC6	Histone H2A type 1-C	HTS (29742442)	5	29742442	-
+631	Homo sapiens	3013	H2AC7	Histone H2A type 1-D	HTS (29742442)	5	29742442	-
+632	Homo sapiens	55766	H2AJ	Histone H2A.J	HTS (29742442)	5	29742442	-
+633	Homo sapiens	92815	H2AW	Histone H2A type 3	HTS (29742442)	5	29742442	-
+634	Homo sapiens	3014	H2AX	Histone H2AX	HTS (29742442)	5	29742442	-
+635	Homo sapiens	255626	H2BC1	Histone H2B type 1-A	HTS (29742442)	5	29742442	-
+636	Homo sapiens	85236	H2BC12	Histone H2B type 1-K	HTS (29742442)	5	29742442	-
+637	Homo sapiens	8340	H2BC13	Histone H2B type 1-L	HTS (29742442)	5	29742442	-
+638	Homo sapiens	8342	H2BC14	Histone H2B type 1-M	HTS (29742442)	5	29742442	-
+639	Homo sapiens	8341	H2BC15	Histone H2B type 1-N	HTS (29742442)	5	29742442	-
+640	Homo sapiens	440689	H2BC18	Histone H2B type 2-F	HTS (29742442)	5	29742442	-
+641	Homo sapiens	8345	H2BC9	Histone H2B type 1-H	HTS (29742442)	5	29742442	-
+642	Homo sapiens	333932	H3C15	Histone H3.2	HTS (29742442)	5	29742442	-
+643	Homo sapiens	8359	H4C1	Histone H4	HTS (29742442)	5	29742442	-
+644	Homo sapiens	8365	H4C8	Histone H4	HTS (30108179)	5	30108179	-
+645	Homo sapiens	3030	HADHA	"Trifunctional enzyme subunit alpha, mitochondrial"	HTS (30108179)	5	30108179	-
+646	Homo sapiens	3032	HADHB	"Trifunctional enzyme subunit beta, mitochondrial"	HTS (30108179)	5	30108179	-
+647	Homo sapiens	3035	HARS1	"Histidine--tRNA ligase, cytoplasmic"	HTS (30108179)	5	30108179	-
+648	Homo sapiens	10767	HBS1L	HBS1-like protein	HTS (30108179)	5	30108179	-
+649	Homo sapiens	3054	HCFC1	Host cell factor 1	HTS (30108179)	5	30108179	-
+650	Homo sapiens	3066	HDAC2	Histone deacetylase 2	HTS (29742442)	5	29742442	-
+651	Homo sapiens	55869	HDAC8	Histone deacetylase 8	HTS (30108179)	5	30108179	-
+652	Homo sapiens	3069	HDLBP	Vigilin	HTS (30108179)	5	30108179	-
+653	Homo sapiens	3105	HLA-A	"HLA class I histocompatibility antigen, A alpha chain"	HTS (30108179)	5	30108179	-
+654	Homo sapiens	3119	HLA-DQB1	"HLA class II histocompatibility antigen, DQ beta 1 chain"	HTS (30108179)	5	30108179	-
+655	Homo sapiens	3123	HLA-DRB1	"HLA class II histocompatibility antigen, DRB1 beta chain"	HTS (30108179)	5	30108179	-
+656	Homo sapiens	3146	HMGB1	High mobility group protein B1	HTS (30108179)	5	30108179	-
+657	Homo sapiens	3148	HMGB2	High mobility group protein B2	HTS (30108179)	5	30108179	-
+658	Homo sapiens	3151	HMGN2	Non-histone chromosomal protein HMG-17	HTS (29742442)	5	29742442	-
+659	Homo sapiens	9324	HMGN3	High mobility group nucleosome-binding domain-containing protein 3	HTS (29742442)	5	29742442	-
+660	Homo sapiens	144983	HNRNPA1L2	Heterogeneous nuclear ribonucleoprotein A1-like 2	HTS (29742442)	5	29742442	-
+661	Homo sapiens	343069	HNRNPCL1	Heterogeneous nuclear ribonucleoprotein C-like 1	HTS (29742442)	5	29742442	-
+662	Homo sapiens	3187	HNRNPH1	Heterogeneous nuclear ribonucleoprotein H	HTS (29742442)	5	29742442	-
+663	Homo sapiens	3188	HNRNPH2	Heterogeneous nuclear ribonucleoprotein H2	HTS (29742442)	5	29742442	-
+664	Homo sapiens	3189	HNRNPH3	Heterogeneous nuclear ribonucleoprotein H3	HTS (29742442)	5	29742442	-
+665	Homo sapiens	92906	HNRNPLL	Heterogeneous nuclear ribonucleoprotein L-like	HTS (29742442)	5	29742442	-
+666	Homo sapiens	10236	HNRNPR	Heterogeneous nuclear ribonucleoprotein R	HTS (29742442)	5	29742442	-
+667	Homo sapiens	50809	HP1BP3	Heterochromatin protein 1-binding protein 3	HTS (29742442)	5	29742442	-
+668	Homo sapiens	3265	HRAS	GTPase HRas	HTS (29742442)	5	29742442	-
+669	Homo sapiens	388697	HRNR	Hornerin	HTS (30108179)	5	30108179	-
+670	Homo sapiens	51144	HSD17B12	Estradiol 17-beta-dehydrogenase 12	HTS (30108179)	5	30108179	-
+671	Homo sapiens	3295	HSD17B4	Peroxisomal multifunctional enzyme type 2	HTS (30108179)	5	30108179	-
+672	Homo sapiens	3320	HSP90AA1	Heat shock protein HSP 90-alpha	HTS (30108179)	5	30108179	-
+673	Homo sapiens	391634	HSP90AB2P	Putative heat shock protein HSP 90-beta 2	HTS (29742442)	5	29742442	-
+674	Homo sapiens	7184	HSP90B1	Endoplasmin	HTS (30108179)	5	30108179	-
+675	Homo sapiens	3308	HSPA4	Heat shock 70 kDa protein 4	HTS (29742442)	5	29742442	-
+676	Homo sapiens	3309	HSPA5	78 kDa glucose-regulated protein	HTS (30108179)	5	30108179	-
+677	Homo sapiens	3313	HSPA9	"Stress-70 protein, mitochondrial"	HTS (30108179)	5	30108179	-
+678	Homo sapiens	3315	HSPB1	Heat shock protein beta-1	HTS (30108179)	5	30108179	-
+679	Homo sapiens	3329	HSPD1	"60 kDa heat shock protein, mitochondrial"	HTS (30108179)	5	30108179	-
+680	Homo sapiens	10808	HSPH1	Heat shock protein 105 kDa	HTS (30108179)	5	30108179	-
+681	Homo sapiens	10075	HUWE1	E3 ubiquitin-protein ligase HUWE1	HTS (30108179)	5	30108179	-
+682	Homo sapiens	10525	HYOU1	Hypoxia up-regulated protein 1	HTS (30108179)	5	30108179	-
+683	Homo sapiens	3376	IARS1	"Isoleucine--tRNA ligase, cytoplasmic"	HTS (30108179)	5	30108179	-
+684	Homo sapiens	3418	IDH2	"Isocitrate dehydrogenase [NADP], mitochondrial"	HTS (30108179)	5	30108179	-
+685	Homo sapiens	3428	IFI16	Gamma-interferon-inducible protein 16	HTS (30108179)	5	30108179	-
+686	Homo sapiens	3493	IGHA1	Ig alpha-1 chain C region;Ig alpha-2 chain C region	HTS (30108179)	5	30108179	-
+687	Homo sapiens	3550	IK	Protein Red	HTS (30108179)	5	30108179	-
+688	Homo sapiens	10989	IMMT	MICOS complex subunit MIC60	HTS (30108179)	5	30108179	-
+689	Homo sapiens	55272	IMP3	U3 small nucleolar ribonucleoprotein protein IMP3	HTS (29742442)	5	29742442	-
+690	Homo sapiens	92856	IMP4	U3 small nucleolar ribonucleoprotein protein IMP4	HTS (29742442)	5	29742442	-
+691	Homo sapiens	3615	IMPDH2	Inosine-5-monophosphate dehydrogenase 2	HTS (30108179)	5	30108179	-
+692	Homo sapiens	3619	INCENP	Inner centromere protein	HTS (29742442)	5	29742442	-
+693	Homo sapiens	3635	INPP5D	"Phosphatidylinositol 3, 4, 5-trisphosphate 5-phosphatase 1"	HTS (30108179)	5	30108179	-
+694	Homo sapiens	3843	IPO5	Importin-5	HTS (30108179)	5	30108179	-
+695	Homo sapiens	55705	IPO9	Importin-9	HTS (30108179)	5	30108179	-
+696	Homo sapiens	3662	IRF4	Interferon regulatory factor 4	HTS (30108179)	5	30108179	-
+697	Homo sapiens	81875	ISG20L2	Interferon-stimulated 20 kDa exonuclease-like 2	HTS (29742442)	5	29742442	-
+698	Homo sapiens	3735	KARS1	Lysine--tRNA ligase	HTS (30108179)	5	30108179	-
+699	Homo sapiens	3775	KCNK1	Potassium channel subfamily K member 1	HTS (29742442)	5	29742442	-
+700	Homo sapiens	10657	KHDRBS1	"KH domain-containing, RNA-binding, signal transduction-associated protein 1"	HTS (30108179)	5	30108179	-
+701	Homo sapiens	8570	KHSRP	Far upstream element-binding protein 2	HTS (30108179)	5	30108179	-
+702	Homo sapiens	3835	KIF22	Kinesin-like protein KIF22	HTS (30108179)	5	30108179	-
+703	Homo sapiens	9493	KIF23	Kinesin-like protein KIF23	HTS (29742442)	5	29742442	-
+704	Homo sapiens	3796	KIF2A	Kinesin-like protein KIF2A	HTS (30108179)	5	30108179	-
+705	Homo sapiens	3799	KIF5B	Kinesin-1 heavy chain	HTS (30108179)	5	30108179	-
+706	Homo sapiens	3833	KIFC1	Kinesin-like protein KIFC1	HTS (30108179)	5	30108179	-
+707	Homo sapiens	4297	KMT2A	Histone-lysine N-methyltransferase 2A	HTS (29742442)	5	29742442	-
+708	Homo sapiens	400506	KNOP1	Lysine-rich nucleolar protein 1	HTS (29742442)	5	29742442	-
+709	Homo sapiens	3838	KPNA2	Importin subunit alpha;Importin subunit alpha-1	HTS (30108179)	5	30108179	-
+710	Homo sapiens	448834	KPRP	Keratinocyte proline-rich protein	HTS (30108179)	5	30108179	-
+711	Homo sapiens	3845	KRAS	GTPase KRas	HTS (29742442)	5	29742442	-
+712	Homo sapiens	65095	KRI1	Protein KRI1 homolog	HTS (29742442)	5	29742442	-
+713	Homo sapiens	11103	KRR1	KRR1 small subunit processome component homolog	HTS (29742442)	5	29742442	-
+714	Homo sapiens	3895	KTN1	Kinectin	HTS (30108179)	5	30108179	-
+715	Homo sapiens	23185	LARP4B	La-related protein 4B	HTS (30108179)	5	30108179	-
+716	Homo sapiens	79081	LBHD1	LBH domain-containing protein 1	HTS (29742442)	5	29742442	-
+717	Homo sapiens	3936	LCP1	Plastin-2	HTS (30108179)	5	30108179	-
+718	Homo sapiens	3939	LDHA	L-lactate dehydrogenase A chain	HTS (30108179)	5	30108179	-
+719	Homo sapiens	3954	LETM1	"LETM1 and EF-hand domain-containing protein 1, mitochondrial"	HTS (30108179)	5	30108179	-
+720	Homo sapiens	3980	LIG3	DNA ligase 3	HTS (30108179)	5	30108179	-
+721	Homo sapiens	84298	LLPH	Protein LLP homolog	HTS (29742442)	5	29742442	-
+722	Homo sapiens	4001	LMNB1	Lamin-B1	HTS (30108179)	5	30108179	-
+723	Homo sapiens	84823	LMNB2	Lamin-B2	HTS (30108179)	5	30108179	-
+724	Homo sapiens	102724334	LOC102724334	Histone H2B type F-S	HTS (29742442)	5	29742442	-
+725	Homo sapiens	9361	LONP1	"Lon protease homolog, mitochondrial"	HTS (30108179)	5	30108179	-
+726	Homo sapiens	10128	LRPPRC	"Leucine-rich PPR motif-containing protein, mitochondrial"	HTS (30108179)	5	30108179	-
+727	Homo sapiens	57470	LRRC47	Leucine-rich repeat-containing protein 47	HTS (30108179)	5	30108179	-
+728	Homo sapiens	55379	LRRC59	Leucine-rich repeat-containing protein 59	HTS (30108179)	5	30108179	-
+729	Homo sapiens	26065	LSM14A	Protein LSM14 homolog A	HTS (30108179)	5	30108179	-
+730	Homo sapiens	4046	LSP1	Lymphocyte-specific protein 1	HTS (30108179)	5	30108179	-
+731	Homo sapiens	84946	LTV1	Protein LTV1 homolog	HTS (30108179)	5	30108179	-
+732	Homo sapiens	51631	LUC7L2	Putative RNA-binding protein Luc7-like 2	HTS (29742442)	5	29742442	-
+733	Homo sapiens	51747	LUC7L3	Luc7-like protein 3	HTS (29742442)	5	29742442	-
+734	Homo sapiens	55646	LYAR	Cell growth-regulating nucleolar protein	HTS (29742442)	5	29742442	-
+735	Homo sapiens	23499	MACF1	"Microtubule-actin cross-linking factor 1, isoforms 1/2/3/5"	HTS (30108179)	5	30108179	-
+736	Homo sapiens	9555	MACROH2A1	Core histone macro-H2A.1	HTS (29742442)	5	29742442	-
+737	Homo sapiens	4116	MAGOH	Protein mago nashi homolog	HTS (29742442)	5	29742442	-
+738	Homo sapiens	55110	MAGOHB	Protein mago nashi homolog 2	HTS (29742442)	5	29742442	-
+739	Homo sapiens	84549	MAK16	Protein MAK16 homolog	HTS (29742442)	5	29742442	-
+740	Homo sapiens	55201	MAP1S	Microtubule-associated protein 1S	HTS (30108179)	5	30108179	-
+741	Homo sapiens	4134	MAP4	Microtubule-associated protein 4	HTS (29742442)	5	29742442	-
+742	Homo sapiens	11184	MAP4K1	Mitogen-activated protein kinase kinase kinase kinase 1	HTS (30108179)	5	30108179	-
+743	Homo sapiens	22919	MAPRE1	Microtubule-associated protein RP/EB family member 1	HTS (30108179)	5	30108179	-
+744	Homo sapiens	4141	MARS1	"Methionine--tRNA ligase, cytoplasmic"	HTS (30108179)	5	30108179	-
+745	Homo sapiens	9782	MATR3	Matrin-3	HTS (29742442)	5	29742442	-
+746	Homo sapiens	8932	MBD2	Methyl-CpG-binding domain protein 2	HTS (29742442)	5	29742442	-
+747	Homo sapiens	4154	MBNL1	Muscleblind-like protein 1	HTS (30108179)	5	30108179	-
+748	Homo sapiens	4171	MCM2	DNA replication licensing factor MCM2	HTS (30108179)	5	30108179	-
+749	Homo sapiens	4173	MCM4	DNA replication licensing factor MCM4	HTS (30108179)	5	30108179	-
+750	Homo sapiens	4175	MCM6	DNA replication licensing factor MCM6	HTS (30108179)	5	30108179	-
+751	Homo sapiens	4200	ME2	"NAD-dependent malic enzyme, mitochondrial"	HTS (30108179)	5	30108179	-
+752	Homo sapiens	219541	MED19	Mediator of RNA polymerase II transcription subunit 19	HTS (29742442)	5	29742442	-
+753	Homo sapiens	56257	MEPCE	7SK snRNA methylphosphate capping enzyme	HTS (29742442)	5	29742442	-
+754	Homo sapiens	10988	METAP2	Methionine aminopeptidase 2	HTS (30108179)	5	30108179	-
+755	Homo sapiens	4236	MFAP1	Microfibrillar-associated protein 1	HTS (29742442)	5	29742442	-
+756	Homo sapiens	84057	MND1	Meiotic nuclear division protein 1 homolog	HTS (29742442)	5	29742442	-
+757	Homo sapiens	4332	MNDA	Myeloid cell nuclear differentiation antigen	HTS (30108179)	5	30108179	-
+758	Homo sapiens	10933	MORF4L1	Mortality factor 4-like protein 1	HTS (30108179)	5	30108179	-
+759	Homo sapiens	4350	MPG	DNA-3-methyladenine glycosylase	HTS (30108179)	5	30108179	-
+760	Homo sapiens	10199	MPHOSPH10	U3 small nucleolar ribonucleoprotein protein MPP10	HTS (29742442)	5	29742442	-
+761	Homo sapiens	6182	MRPL12	"39S ribosomal protein L12, mitochondrial"	HTS (30108179)	5	30108179	-
+762	Homo sapiens	51081	MRPS7	"28S ribosomal protein S7, mitochondrial"	HTS (30108179)	5	30108179	-
+763	Homo sapiens	51154	MRTO4	mRNA turnover protein 4 homolog	HTS (29742442)	5	29742442	-
+764	Homo sapiens	931	MS4A1	B-lymphocyte antigen CD20	HTS (30108179)	5	30108179	-
+765	Homo sapiens	4436	MSH2	DNA mismatch repair protein Msh2	HTS (30108179)	5	30108179	-
+766	Homo sapiens	4437	MSH3	DNA mismatch repair protein Msh3	HTS (30108179)	5	30108179	-
+767	Homo sapiens	2956	MSH6	DNA mismatch repair protein Msh6	HTS (30108179)	5	30108179	-
+768	Homo sapiens	4478	MSN	Moesin	HTS (29742442)	5	29742442	-
+769	Homo sapiens	9219	MTA2	Metastasis-associated protein MTA2	HTS (29742442)	5	29742442	-
+770	Homo sapiens	92140	MTDH	Protein LYRIC	HTS (30108179)	5	30108179	-
+771	Homo sapiens	4522	MTHFD1	"C-1-tetrahydrofolate synthase, cytoplasmic"	HTS (30108179)	5	30108179	-
+772	Homo sapiens	25902	MTHFD1L	"Monofunctional C1-tetrahydrofolate synthase, mitochondrial"	HTS (30108179)	5	30108179	-
+773	Homo sapiens	10627	MYL12A	Myosin regulatory light chain 12A	HTS (30108179)	5	30108179	-
+774	Homo sapiens	4641	MYO1C	Unconventional myosin-Ic	HTS (29742442)	5	29742442	-
+775	Homo sapiens	4643	MYO1E	Unconventional myosin-Ie	HTS (30108179)	5	30108179	-
+776	Homo sapiens	4644	MYO5A	Unconventional myosin-Va	HTS (30108179)	5	30108179	-
+777	Homo sapiens	4650	MYO9B	Unconventional myosin-IXb	HTS (30108179)	5	30108179	-
+778	Homo sapiens	80018	NAA25	"N-alpha-acetyltransferase 25, NatB auxiliary subunit"	HTS (30108179)	5	30108179	-
+779	Homo sapiens	4666	NACA	Nascent polypeptide-associated complex subunit alpha	HTS (29742442)	5	29742442	-
+780	Homo sapiens	4673	NAP1L1	Nucleosome assembly protein 1-like 1	HTS (30108179)	5	30108179	-
+781	Homo sapiens	4676	NAP1L4	Nucleosome assembly protein 1-like 4	HTS (30108179)	5	30108179	-
+782	Homo sapiens	4677	NARS1	"Asparagine--tRNA ligase, cytoplasmic"	HTS (30108179)	5	30108179	-
+783	Homo sapiens	9918	NCAPD2	Condensin complex subunit 1	HTS (30108179)	5	30108179	-
+784	Homo sapiens	64151	NCAPG	Condensin complex subunit 3	HTS (30108179)	5	30108179	-
+785	Homo sapiens	23397	NCAPH	Condensin complex subunit 2	HTS (30108179)	5	30108179	-
+786	Homo sapiens	4686	NCBP1	Nuclear cap-binding protein subunit 1	HTS (29742442)	5	29742442	-
+787	Homo sapiens	653361	NCF1	Neutrophil cytosol factor 1	HTS (30108179)	5	30108179	-
+788	Homo sapiens	4688	NCF2	Neutrophil cytosol factor 2	HTS (30108179)	5	30108179	-
+789	Homo sapiens	3071	NCKAP1L	Nck-associated protein 1-like	HTS (30108179)	5	30108179	-
+790	Homo sapiens	4704	NDUFA9	"NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 9, mitochondrial"	HTS (30108179)	5	30108179	-
+791	Homo sapiens	4719	NDUFS1	"NADH-ubiquinone oxidoreductase 75 kDa subunit, mitochondrial"	HTS (30108179)	5	30108179	-
+792	Homo sapiens	4720	NDUFS2	"NADH dehydrogenase [ubiquinone] iron-sulfur protein 2, mitochondrial"	HTS (30108179)	5	30108179	-
+793	Homo sapiens	4790	NFKB1	Nuclear factor NF-kappa-B p105 subunit	HTS (30108179)	5	30108179	-
+794	Homo sapiens	4791	NFKB2	Nuclear factor NF-kappa-B p100 subunit	HTS (30108179)	5	30108179	-
+795	Homo sapiens	25983	NGDN	Neuroguidin	HTS (29742442)	5	29742442	-
+796	Homo sapiens	55651	NHP2	H/ACA ribonucleoprotein complex subunit 2	HTS (29742442)	5	29742442	-
+797	Homo sapiens	79576	NKAP	NF-kappa-B-activating protein	HTS (29742442)	5	29742442	-
+798	Homo sapiens	222698	NKAPL	NKAP-like protein	HTS (29742442)	5	29742442	-
+799	Homo sapiens	55922	NKRF	NF-kappa-B-repressing factor	HTS (29742442)	5	29742442	-
+800	Homo sapiens	54475	NLE1	Notchless protein homolog 1	HTS (29742442)	5	29742442	-
+801	Homo sapiens	4836	NMT1	Glycylpeptide N-tetradecanoyltransferase 1	HTS (30108179)	5	30108179	-
+802	Homo sapiens	64318	NOC3L	Nucleolar complex protein 3 homolog	HTS (29742442)	5	29742442	-
+803	Homo sapiens	79050	NOC4L	Nucleolar complex protein 4 homolog	HTS (29742442)	5	29742442	-
+804	Homo sapiens	79954	NOL10	Nucleolar protein 10	HTS (29742442)	5	29742442	-
+805	Homo sapiens	25926	NOL11	Nucleolar protein 11	HTS (29742442)	5	29742442	-
+806	Homo sapiens	79159	NOL12	Nucleolar protein 12	HTS (29742442)	5	29742442	-
+807	Homo sapiens	51406	NOL7	Nucleolar protein 7	HTS (29742442)	5	29742442	-
+808	Homo sapiens	9221	NOLC1	Nucleolar and coiled-body phosphoprotein 1	HTS (29742442)	5	29742442	-
+809	Homo sapiens	55505	NOP10	H/ACA ribonucleoprotein complex subunit 3	HTS (29742442)	5	29742442	-
+810	Homo sapiens	51491	NOP16	Nucleolar protein 16	HTS (29742442)	5	29742442	-
+811	Homo sapiens	29997	NOP53	Glioma tumor suppressor candidate region gene 2 protein	HTS (29742442)	5	29742442	-
+812	Homo sapiens	161424	NOP9	Nucleolar protein 9	HTS (30108179)	5	30108179	-
+813	Homo sapiens	51070	NOSIP	Nitric oxide synthase-interacting protein	HTS (30108179)	5	30108179	-
+814	Homo sapiens	4893	NRAS	GTPase NRas	HTS (29742442)	5	29742442	-
+815	Homo sapiens	10412	NSA2	Ribosome biogenesis protein NSA2 homolog	HTS (29742442)	5	29742442	-
+816	Homo sapiens	54888	NSUN2	tRNA (cytosine (34)-C (5))-methyltransferase	HTS (30108179)	5	30108179	-
+817	Homo sapiens	55695	NSUN5	Probable 28S rRNA (cytosine-C (5))-methyltransferase	HTS (30108179)	5	30108179	-
+818	Homo sapiens	64710	NUCKS1	Nuclear ubiquitous casein and cyclin-dependent kinase substrate 1	HTS (29742442)	5	29742442	-
+819	Homo sapiens	10726	NUDC	Nuclear migration protein nudC	HTS (30108179)	5	30108179	-
+820	Homo sapiens	57532	NUFIP2	Nuclear fragile X mental retardation-interacting protein 2	HTS (30108179)	5	30108179	-
+821	Homo sapiens	4926	NUMA1	Nuclear mitotic apparatus protein 1	HTS (29742442)	5	29742442	-
+822	Homo sapiens	55746	NUP133	Nuclear pore complex protein Nup133	HTS (30108179)	5	30108179	-
+823	Homo sapiens	9631	NUP155	Nuclear pore complex protein Nup155	HTS (30108179)	5	30108179	-
+824	Homo sapiens	23165	NUP205	Nuclear pore complex protein Nup205	HTS (30108179)	5	30108179	-
+825	Homo sapiens	23225	NUP210	Nuclear pore membrane glycoprotein 210	HTS (30108179)	5	30108179	-
+826	Homo sapiens	8021	NUP214	Nuclear pore complex protein Nup214	HTS (30108179)	5	30108179	-
+827	Homo sapiens	53371	NUP54	Nucleoporin p54	HTS (30108179)	5	30108179	-
+828	Homo sapiens	9818	NUP58	Nucleoporin p58/p45	HTS (30108179)	5	30108179	-
+829	Homo sapiens	23636	NUP62	Nuclear pore glycoprotein p62	HTS (30108179)	5	30108179	-
+830	Homo sapiens	9688	NUP93	Nuclear pore complex protein Nup93	HTS (30108179)	5	30108179	-
+831	Homo sapiens	4928	NUP98	Nuclear pore complex protein Nup98-Nup96	HTS (30108179)	5	30108179	-
+832	Homo sapiens	4931	NVL	Nuclear valosin-containing protein-like	HTS (29742442)	5	29742442	-
+833	Homo sapiens	10482	NXF1	Nuclear RNA export factor 1	HTS (29742442)	5	29742442	-
+834	Homo sapiens	4940	OAS3	2-5-oligoadenylate synthase 3	HTS (30108179)	5	30108179	-
+835	Homo sapiens	51633	OTUD6B	OTU domain-containing protein 6B	HTS (30108179)	5	30108179	-
+836	Homo sapiens	5034	P4HB	Protein disulfide-isomerase	HTS (30108179)	5	30108179	-
+837	Homo sapiens	5050	PAFAH1B3	Platelet-activating factor acetylhydrolase IB subunit gamma	HTS (29742442)	5	29742442	-
+838	Homo sapiens	10606	PAICS	Multifunctional protein ADE2	HTS (30108179)	5	30108179	-
+839	Homo sapiens	55003	PAK1IP1	p21-activated protein kinase-interacting protein 1	HTS (29742442)	5	29742442	-
+840	Homo sapiens	10038	PARP2	Poly [ADP-ribose] polymerase 2	HTS (29742442)	5	29742442	-
+841	Homo sapiens	54039	PCBP3	Poly (rC)-binding protein 3	HTS (29742442)	5	29742442	-
+842	Homo sapiens	51585	PCF11	Pre-mRNA cleavage complex 2 protein Pcf11	HTS (30108179)	5	30108179	-
+843	Homo sapiens	2923	PDIA3	Protein disulfide-isomerase A3	HTS (30108179)	5	30108179	-
+844	Homo sapiens	10954	PDIA5	Protein disulfide-isomerase A5	HTS (30108179)	5	30108179	-
+845	Homo sapiens	10130	PDIA6	Protein disulfide-isomerase A6	HTS (30108179)	5	30108179	-
+846	Homo sapiens	23244	PDS5A	Sister chromatid cohesion protein PDS5 homolog A	HTS (30108179)	5	30108179	-
+847	Homo sapiens	23047	PDS5B	Sister chromatid cohesion protein PDS5 homolog B	HTS (30108179)	5	30108179	-
+848	Homo sapiens	23089	PEG10	Retrotransposon-derived protein PEG10	HTS (30108179)	5	30108179	-
+849	Homo sapiens	23481	PES1	Pescadillo homolog	HTS (29742442)	5	29742442	-
+850	Homo sapiens	5211	PFKL	"ATP-dependent 6-phosphofructokinase, liver type"	HTS (30108179)	5	30108179	-
+851	Homo sapiens	5214	PFKP	"ATP-dependent 6-phosphofructokinase, platelet type"	HTS (30108179)	5	30108179	-
+852	Homo sapiens	5223	PGAM1	Phosphoglycerate mutase 1	HTS (29742442)	5	29742442	-
+853	Homo sapiens	5224	PGAM2	Phosphoglycerate mutase 2	HTS (29742442)	5	29742442	-
+854	Homo sapiens	5245	PHB	Prohibitin	HTS (30108179)	5	30108179	-
+855	Homo sapiens	11331	PHB2	Prohibitin-2	HTS (30108179)	5	30108179	-
+856	Homo sapiens	55023	PHIP	PH-interacting protein	HTS (29742442)	5	29742442	-
+857	Homo sapiens	54984	PINX1	PIN2/TERF1-interacting telomerase inhibitor 1	HTS (29742442)	5	29742442	-
+858	Homo sapiens	5305	PIP4K2A	Phosphatidylinositol 5-phosphate 4-kinase type-2 alpha	HTS (30108179)	5	30108179	-
+859	Homo sapiens	8394	PIP5K1A	Phosphatidylinositol 4-phosphate 5-kinase type-1 alpha	HTS (30108179)	5	30108179	-
+860	Homo sapiens	5336	PLCG2	"1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-2"	HTS (30108179)	5	30108179	-
+861	Homo sapiens	5337	PLD1	Phospholipase D1	HTS (30108179)	5	30108179	-
+862	Homo sapiens	51177	PLEKHO1	Pleckstrin homology domain-containing family O member 1	HTS (30108179)	5	30108179	-
+863	Homo sapiens	11284	PNKP	Bifunctional polynucleotide phosphatase/kinase	HTS (30108179)	5	30108179	-
+864	Homo sapiens	5411	PNN	Pinin	HTS (30108179)	5	30108179	-
+865	Homo sapiens	56902	PNO1	RNA-binding protein PNO1	HTS (30108179)	5	30108179	-
+866	Homo sapiens	5423	POLB	DNA polymerase beta	HTS (30108179)	5	30108179	-
+867	Homo sapiens	5424	POLD1	DNA polymerase delta catalytic subunit	HTS (30108179)	5	30108179	-
+868	Homo sapiens	25885	POLR1A	DNA-directed RNA polymerase I subunit RPA1	HTS (30108179)	5	30108179	-
+869	Homo sapiens	221830	POLR1F	DNA-directed RNA polymerase I subunit RPA43	HTS (30108179)	5	30108179	-
+870	Homo sapiens	10849	POLR1G	DNA-directed RNA polymerase I subunit RPA34	HTS (30108179)	5	30108179	-
+871	Homo sapiens	5430	POLR2A	DNA-directed RNA polymerase II subunit RPB1	HTS (30108179)	5	30108179	-
+872	Homo sapiens	5431	POLR2B	DNA-directed RNA polymerase II subunit RPB2	HTS (30108179)	5	30108179	-
+873	Homo sapiens	100101267	POM121C	Nuclear envelope pore membrane protein POM 121C	HTS (30108179)	5	30108179	-
+874	Homo sapiens	5464	PPA1	Inorganic pyrophosphatase	HTS (30108179)	5	30108179	-
+875	Homo sapiens	56342	PPAN	Suppressor of SWI4 1 homolog	HTS (29742442)	5	29742442	-
+876	Homo sapiens	5479	PPIB	Peptidyl-prolyl cis-trans isomerase B	HTS (30108179)	5	30108179	-
+877	Homo sapiens	9360	PPIG	Peptidyl-prolyl cis-trans isomerase G	HTS (29742442)	5	29742442	-
+878	Homo sapiens	5500	PPP1CB	Serine/threonine-protein phosphatase PP1-beta catalytic subunit	HTS (29742442)	5	29742442	-
+879	Homo sapiens	5501	PPP1CC	Serine/threonine-protein phosphatase PP1-gamma catalytic subunit	HTS (30108179)	5	30108179	-
+880	Homo sapiens	25824	PRDX5	"Peroxiredoxin-5, mitochondrial"	HTS (30108179)	5	30108179	-
+881	Homo sapiens	9588	PRDX6	Peroxiredoxin-6	HTS (29742442)	5	29742442	-
+882	Homo sapiens	8575	PRKRA	Interferon-inducible double-stranded RNA-dependent protein kinase activator A	HTS (30108179)	5	30108179	-
+883	Homo sapiens	26121	PRPF31	U4/U6 small nuclear ribonucleoprotein Prp31	HTS (30108179)	5	30108179	-
+884	Homo sapiens	8899	PRPF4B	Serine/threonine-protein kinase PRP4 homolog	HTS (29742442)	5	29742442	-
+885	Homo sapiens	24148	PRPF6	Pre-mRNA-processing factor 6	HTS (30108179)	5	30108179	-
+886	Homo sapiens	5631	PRPS1	Ribose-phosphate pyrophosphokinase 1	HTS (29742442)	5	29742442	-
+887	Homo sapiens	221823	PRPS1L1	Ribose-phosphate pyrophosphokinase 3	HTS (29742442)	5	29742442	-
+888	Homo sapiens	5634	PRPS2	Ribose-phosphate pyrophosphokinase 2	HTS (29742442)	5	29742442	-
+889	Homo sapiens	7916	PRRC2A	Protein PRRC2A	HTS (30108179)	5	30108179	-
+890	Homo sapiens	23215	PRRC2C	Protein PRRC2C	HTS (30108179)	5	30108179	-
+891	Homo sapiens	5700	PSMC1	26S protease regulatory subunit 4	HTS (30108179)	5	30108179	-
+892	Homo sapiens	5702	PSMC3	26S protease regulatory subunit 6A	HTS (29742442)	5	29742442	-
+893	Homo sapiens	5708	PSMD2	26S proteasome non-ATPase regulatory subunit 2	HTS (30108179)	5	30108179	-
+894	Homo sapiens	5709	PSMD3	26S proteasome non-ATPase regulatory subunit 3	HTS (30108179)	5	30108179	-
+895	Homo sapiens	9861	PSMD6	26S proteasome non-ATPase regulatory subunit 6	HTS (30108179)	5	30108179	-
+896	Homo sapiens	5720	PSME1	Proteasome activator complex subunit 1	HTS (29742442)	5	29742442	-
+897	Homo sapiens	55269	PSPC1	Paraspeckle component 1	HTS (30108179)	5	30108179	-
+898	Homo sapiens	9991	PTBP3	Polypyrimidine tract-binding protein 3	HTS (30108179)	5	30108179	-
+899	Homo sapiens	5770	PTPN1	Tyrosine-protein phosphatase non-receptor type 1	HTS (30108179)	5	30108179	-
+900	Homo sapiens	5777	PTPN6	Tyrosine-protein phosphatase non-receptor type 6	HTS (30108179)	5	30108179	-
+901	Homo sapiens	5788	PTPRC	Receptor-type tyrosine-protein phosphatase C	HTS (29742442)	5	29742442	-
+902	Homo sapiens	22827	PUF60	Poly (U)-binding-splicing factor PUF60	HTS (30108179)	5	30108179	-
+903	Homo sapiens	9698	PUM1	Pumilio homolog 1	HTS (30108179)	5	30108179	-
+904	Homo sapiens	9933	PUM3	Pumilio domain-containing protein KIAA0020	HTS (29742442)	5	29742442	-
+905	Homo sapiens	5831	PYCR1	"Pyrroline-5-carboxylate reductase 1, mitochondrial"	HTS (30108179)	5	30108179	-
+906	Homo sapiens	84305	PYM1	Partner of Y14 and mago	HTS (30108179)	5	30108179	-
+907	Homo sapiens	5859	QARS1	Glutamine--tRNA ligase	HTS (30108179)	5	30108179	-
+908	Homo sapiens	10890	RAB10	Ras-related protein Rab-10	HTS (29742442)	5	29742442	-
+909	Homo sapiens	8766	RAB11A	Ras-related protein Rab-11A	HTS (30108179)	5	30108179	-
+910	Homo sapiens	5872	RAB13	Ras-related protein Rab-13	HTS (29742442)	5	29742442	-
+911	Homo sapiens	376267	RAB15	Ras-related protein Rab-15	HTS (29742442)	5	29742442	-
+912	Homo sapiens	5861	RAB1A	Ras-related protein Rab-1A	HTS (29742442)	5	29742442	-
+913	Homo sapiens	81876	RAB1B	Ras-related protein Rab-1B	HTS (29742442)	5	29742442	-
+914	Homo sapiens	441400	RAB1C	Putative Ras-related protein Rab-1C	HTS (29742442)	5	29742442	-
+915	Homo sapiens	4218	RAB8A	Ras-related protein Rab-8A	HTS (29742442)	5	29742442	-
+916	Homo sapiens	51762	RAB8B	Ras-related protein Rab-8B	HTS (29742442)	5	29742442	-
+917	Homo sapiens	5879	RAC1	Ras-related C3 botulinum toxin substrate 1	HTS (29742442)	5	29742442	-
+918	Homo sapiens	5881	RAC3	Ras-related C3 botulinum toxin substrate 3	HTS (29742442)	5	29742442	-
+919	Homo sapiens	10111	RAD50	DNA repair protein RAD50	HTS (30108179)	5	30108179	-
+920	Homo sapiens	8480	RAE1	mRNA export factor	HTS (30108179)	5	30108179	-
+921	Homo sapiens	10743	RAI1	Retinoic acid-induced protein 1	HTS (29742442)	5	29742442	-
+922	Homo sapiens	5901	RAN	GTP-binding nuclear protein Ran	HTS (30108179)	5	30108179	-
+923	Homo sapiens	5903	RANBP2	E3 SUMO-protein ligase RanBP2	HTS (30108179)	5	30108179	-
+924	Homo sapiens	5906	RAP1A	Ras-related protein Rap-1A	HTS (29742442)	5	29742442	-
+925	Homo sapiens	5908	RAP1B	Ras-related protein Rap-1b	HTS (29742442)	5	29742442	-
+926	Homo sapiens	64926	RASAL3	RAS protein activator like-3	HTS (30108179)	5	30108179	-
+927	Homo sapiens	125950	RAVER1	Ribonucleoprotein PTB-binding 1	HTS (30108179)	5	30108179	-
+928	Homo sapiens	5925	RB1	Retinoblastoma-associated protein	HTS (30108179)	5	30108179	-
+929	Homo sapiens	5931	RBBP7	Histone-binding protein RBBP7	HTS (29742442)	5	29742442	-
+930	Homo sapiens	8241	RBM10	RNA-binding protein 10	HTS (30108179)	5	30108179	-
+931	Homo sapiens	389677	RBM12B	RNA-binding protein 12B	HTS (29742442)	5	29742442	-
+932	Homo sapiens	55696	RBM22	Pre-mRNA-splicing factor RBM22	HTS (29742442)	5	29742442	-
+933	Homo sapiens	64062	RBM26	RNA-binding protein 26	HTS (30108179)	5	30108179	-
+934	Homo sapiens	54439	RBM27	RNA-binding protein 27	HTS (30108179)	5	30108179	-
+935	Homo sapiens	55131	RBM28	RNA-binding protein 28	HTS (29742442)	5	29742442	-
+936	Homo sapiens	5935	RBM3	Putative RNA-binding protein 3	HTS (30108179)	5	30108179	-
+937	Homo sapiens	23029	RBM34	RNA-binding protein 34	HTS (29742442)	5	29742442	-
+938	Homo sapiens	83759	RBM4B	RNA-binding protein 4B	HTS (29742442)	5	29742442	-
+939	Homo sapiens	10181	RBM5	RNA-binding protein 5	HTS (30108179)	5	30108179	-
+940	Homo sapiens	51634	RBMX2	"RNA-binding motif protein, X-linked 2"	HTS (29742442)	5	29742442	-
+941	Homo sapiens	494115	RBMXL1	"RNA binding motif protein, X-linked-like-1"	HTS (29742442)	5	29742442	-
+942	Homo sapiens	10171	RCL1	RNA 3-terminal phosphate cyclase-like protein	HTS (29742442)	5	29742442	-
+943	Homo sapiens	5962	RDX	Radixin	HTS (29742442)	5	29742442	-
+944	Homo sapiens	57109	REXO4	RNA exonuclease 4	HTS (29742442)	5	29742442	-
+945	Homo sapiens	5981	RFC1	Replication factor C subunit 1	HTS (30108179)	5	30108179	-
+946	Homo sapiens	5983	RFC3	Replication factor C subunit 3	HTS (30108179)	5	30108179	-
+947	Homo sapiens	5984	RFC4	Replication factor C subunit 4	HTS (30108179)	5	30108179	-
+948	Homo sapiens	5985	RFC5	Replication factor C subunit 5	HTS (30108179)	5	30108179	-
+949	Homo sapiens	23180	RFTN1	Raftlin	HTS (30108179)	5	30108179	-
+950	Homo sapiens	79697	RIOX1	Bifunctional lysine-specific demethylase and histidyl-hydroxylase NO66	HTS (29742442)	5	29742442	-
+951	Homo sapiens	57674	RNF213	E3 ubiquitin-protein ligase RNF213	HTS (30108179)	5	30108179	-
+952	Homo sapiens	80135	RPF1	Ribosome production factor 1	HTS (29742442)	5	29742442	-
+953	Homo sapiens	84154	RPF2	Ribosome production factor 2 homolog	HTS (29742442)	5	29742442	-
+954	Homo sapiens	4736	RPL10A	60S ribosomal protein L10a	HTS (30108179)	5	30108179	-
+955	Homo sapiens	6135	RPL11	60S ribosomal protein L11	HTS (30108179)	5	30108179	-
+956	Homo sapiens	6136	RPL12	60S ribosomal protein L12	HTS (30108179)	5	30108179	-
+957	Homo sapiens	6137	RPL13	60S ribosomal protein L13	HTS (30108179)	5	30108179	-
+958	Homo sapiens	23521	RPL13A	60S ribosomal protein L13a	HTS (30108179)	5	30108179	-
+959	Homo sapiens	6138	RPL15	60S ribosomal protein L15	HTS (30108179)	5	30108179	-
+960	Homo sapiens	6139	RPL17	60S ribosomal protein L17	HTS (30108179)	5	30108179	-
+961	Homo sapiens	9349	RPL23	60S ribosomal protein L23	HTS (30108179)	5	30108179	-
+962	Homo sapiens	6147	RPL23A	60S ribosomal protein L23a	HTS (30108179)	5	30108179	-
+963	Homo sapiens	6152	RPL24	60S ribosomal protein L24	HTS (30108179)	5	30108179	-
+964	Homo sapiens	6154	RPL26	60S ribosomal protein L26	HTS (30108179)	5	30108179	-
+965	Homo sapiens	6155	RPL27	60S ribosomal protein L27	HTS (30108179)	5	30108179	-
+966	Homo sapiens	6122	RPL3	60S ribosomal protein L3	HTS (30108179)	5	30108179	-
+967	Homo sapiens	6156	RPL30	60S ribosomal protein L30	HTS (30108179)	5	30108179	-
+968	Homo sapiens	6169	RPL38	60S ribosomal protein L38	HTS (30108179)	5	30108179	-
+969	Homo sapiens	6124	RPL4	60S ribosomal protein L4	HTS (30108179)	5	30108179	-
+970	Homo sapiens	6125	RPL5	60S ribosomal protein L5	HTS (30108179)	5	30108179	-
+971	Homo sapiens	6128	RPL6	60S ribosomal protein L6	HTS (30108179)	5	30108179	-
+972	Homo sapiens	6129	RPL7	60S ribosomal protein L7	HTS (30108179)	5	30108179	-
+973	Homo sapiens	6130	RPL7A	60S ribosomal protein L7a	HTS (30108179)	5	30108179	-
+974	Homo sapiens	6133	RPL9	60S ribosomal protein L9	HTS (30108179)	5	30108179	-
+975	Homo sapiens	6175	RPLP0	60S acidic ribosomal protein P0	HTS (30108179)	5	30108179	-
+976	Homo sapiens	6181	RPLP2	60S acidic ribosomal protein P2	HTS (30108179)	5	30108179	-
+977	Homo sapiens	6184	RPN1	Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit 1	HTS (30108179)	5	30108179	-
+978	Homo sapiens	6185	RPN2	Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit 2	HTS (30108179)	5	30108179	-
+979	Homo sapiens	23248	RPRD2	Regulation of nuclear pre-mRNA domain-containing protein 2	HTS (30108179)	5	30108179	-
+980	Homo sapiens	6204	RPS10	40S ribosomal protein S10	HTS (30108179)	5	30108179	-
+981	Homo sapiens	6205	RPS11	40S ribosomal protein S11	HTS (30108179)	5	30108179	-
+982	Homo sapiens	6206	RPS12	40S ribosomal protein S12	HTS (30108179)	5	30108179	-
+983	Homo sapiens	6207	RPS13	40S ribosomal protein S13	HTS (30108179)	5	30108179	-
+984	Homo sapiens	6208	RPS14	40S ribosomal protein S14	HTS (30108179)	5	30108179	-
+985	Homo sapiens	6209	RPS15	40S ribosomal protein S15	HTS (30108179)	5	30108179	-
+986	Homo sapiens	6210	RPS15A	40S ribosomal protein S15a	HTS (30108179)	5	30108179	-
+987	Homo sapiens	6217	RPS16	40S ribosomal protein S16	HTS (30108179)	5	30108179	-
+988	Homo sapiens	6218	RPS17	40S ribosomal protein S17	HTS (30108179)	5	30108179	-
+989	Homo sapiens	6222	RPS18	40S ribosomal protein S18	HTS (30108179)	5	30108179	-
+990	Homo sapiens	6223	RPS19	40S ribosomal protein S19	HTS (30108179)	5	30108179	-
+991	Homo sapiens	6187	RPS2	40S ribosomal protein S2	HTS (30108179)	5	30108179	-
+992	Homo sapiens	6229	RPS24	40S ribosomal protein S24	HTS (30108179)	5	30108179	-
+993	Homo sapiens	6230	RPS25	40S ribosomal protein S25	HTS (30108179)	5	30108179	-
+994	Homo sapiens	6233	RPS27A	Ubiquitin-40S ribosomal protein S27a	HTS (30108179)	5	30108179	-
+995	Homo sapiens	6188	RPS3	40S ribosomal protein S3	HTS (30108179)	5	30108179	-
+996	Homo sapiens	6189	RPS3A	40S ribosomal protein S3a	HTS (30108179)	5	30108179	-
+997	Homo sapiens	6191	RPS4X	40S ribosomal protein S4	HTS (30108179)	5	30108179	-
+998	Homo sapiens	6193	RPS5	40S ribosomal protein S5	HTS (30108179)	5	30108179	-
+999	Homo sapiens	6194	RPS6	40S ribosomal protein S6	HTS (30108179)	5	30108179	-
+1000	Homo sapiens	6201	RPS7	40S ribosomal protein S7	HTS (30108179)	5	30108179	-
+1001	Homo sapiens	6202	RPS8	40S ribosomal protein S8	HTS (30108179)	5	30108179	-
+1002	Homo sapiens	6203	RPS9	40S ribosomal protein S9	HTS (30108179)	5	30108179	-
+1003	Homo sapiens	3921	RPSA	40S ribosomal protein SA	HTS (30108179)	5	30108179	-
+1004	Homo sapiens	6238	RRBP1	Ribosome-binding protein 1	HTS (30108179)	5	30108179	-
+1005	Homo sapiens	8568	RRP1	Ribosomal RNA processing protein 1 homolog A	HTS (29742442)	5	29742442	-
+1006	Homo sapiens	23223	RRP12	RRP12-like protein	HTS (29742442)	5	29742442	-
+1007	Homo sapiens	51018	RRP15	RRP15-like protein	HTS (29742442)	5	29742442	-
+1008	Homo sapiens	23076	RRP1B	Ribosomal RNA processing protein 1 homolog B	HTS (29742442)	5	29742442	-
+1009	Homo sapiens	27341	RRP7A	Ribosomal RNA-processing protein 7 homolog A	HTS (29742442)	5	29742442	-
+1010	Homo sapiens	23378	RRP8	Ribosomal RNA-processing protein 8	HTS (29742442)	5	29742442	-
+1011	Homo sapiens	9136	RRP9	U3 small nucleolar RNA-interacting protein 2	HTS (29742442)	5	29742442	-
+1012	Homo sapiens	23212	RRS1	Ribosome biogenesis regulatory protein homolog	HTS (29742442)	5	29742442	-
+1013	Homo sapiens	54665	RSBN1	Round spermatid basic protein 1	HTS (29742442)	5	29742442	-
+1014	Homo sapiens	26156	RSL1D1	Ribosomal L1 domain-containing protein 1	HTS (29742442)	5	29742442	-
+1015	Homo sapiens	51187	RSL24D1	Probable ribosome biogenesis protein RLP24	HTS (29742442)	5	29742442	-
+1016	Homo sapiens	8607	RUVBL1	RuvB-like 1	HTS (30108179)	5	30108179	-
+1017	Homo sapiens	54809	SAMD9	Sterile alpha motif domain-containing protein 9	HTS (30108179)	5	30108179	-
+1018	Homo sapiens	84324	SARNP	SAP domain-containing ribonucleoprotein	HTS (30108179)	5	30108179	-
+1019	Homo sapiens	6301	SARS1	"Serine--tRNA ligase, cytoplasmic"	HTS (30108179)	5	30108179	-
+1020	Homo sapiens	58506	SCAF1	"Splicing factor, arginine/serine-rich 19"	HTS (29742442)	5	29742442	-
+1021	Homo sapiens	57410	SCYL1	N-terminal kinase-like protein	HTS (30108179)	5	30108179	-
+1022	Homo sapiens	55681	SCYL2	SCY1-like protein 2	HTS (30108179)	5	30108179	-
+1023	Homo sapiens	26168	SENP3	Sentrin-specific protease 3	HTS (29742442)	5	29742442	-
+1024	Homo sapiens	1731	SEPTIN1	Septin-1	HTS (30108179)	5	30108179	-
+1025	Homo sapiens	4735	SEPTIN2	Septin-2	HTS (30108179)	5	30108179	-
+1026	Homo sapiens	23157	SEPTIN6	Septin-6	HTS (30108179)	5	30108179	-
+1027	Homo sapiens	989	SEPTIN7	Septin-7	HTS (30108179)	5	30108179	-
+1028	Homo sapiens	10801	SEPTIN9	Septin-9	HTS (30108179)	5	30108179	-
+1029	Homo sapiens	5272	SERPINB9	Serpin B9	HTS (30108179)	5	30108179	-
+1030	Homo sapiens	6418	SET	Protein SET	HTS (30108179)	5	30108179	-
+1031	Homo sapiens	7536	SF1	Splicing factor 1	HTS (30108179)	5	30108179	-
+1032	Homo sapiens	10291	SF3A1	Splicing factor 3A subunit 1	HTS (30108179)	5	30108179	-
+1033	Homo sapiens	10992	SF3B2	Splicing factor 3B subunit 2	HTS (29742442)	5	29742442	-
+1034	Homo sapiens	51639	SF3B6	Pre-mRNA branch site protein p14	HTS (29742442)	5	29742442	-
+1035	Homo sapiens	94081	SFXN1	Sideroflexin-1	HTS (30108179)	5	30108179	-
+1036	Homo sapiens	30011	SH3KBP1	SH3 domain-containing kinase-binding protein 1	HTS (30108179)	5	30108179	-
+1037	Homo sapiens	6499	SKIV2L	Helicase SKI2W	HTS (30108179)	5	30108179	-
+1038	Homo sapiens	8402	SLC25A11	Mitochondrial 2-oxoglutarate/malate carrier protein	HTS (30108179)	5	30108179	-
+1039	Homo sapiens	8604	SLC25A12	Calcium-binding mitochondrial carrier protein Aralar1	HTS (30108179)	5	30108179	-
+1040	Homo sapiens	10165	SLC25A13	Calcium-binding mitochondrial carrier protein Aralar2	HTS (30108179)	5	30108179	-
+1041	Homo sapiens	5250	SLC25A3	"Phosphate carrier protein, mitochondrial"	HTS (30108179)	5	30108179	-
+1042	Homo sapiens	293	SLC25A6	ADP/ATP translocase 3	HTS (30108179)	5	30108179	-
+1043	Homo sapiens	51151	SLC45A2	Absent in melanoma 1 protein	HTS (30108179)	5	30108179	-
+1044	Homo sapiens	81892	SLIRP	"SRA stem-loop-interacting RNA-binding protein, mitochondrial"	HTS (30108179)	5	30108179	-
+1045	Homo sapiens	79811	SLTM	SAFB-like transcription modulator	HTS (29742442)	5	29742442	-
+1046	Homo sapiens	64744	SMAP2	Stromal membrane-associated protein 2	HTS (30108179)	5	30108179	-
+1047	Homo sapiens	6595	SMARCA2	Probable global transcription activator SNF2L2	HTS (29742442)	5	29742442	-
+1048	Homo sapiens	6599	SMARCC1	SWI/SNF complex subunit SMARCC1	HTS (30108179)	5	30108179	-
+1049	Homo sapiens	8243	SMC1A	Structural maintenance of chromosomes protein 1A	HTS (30108179)	5	30108179	-
+1050	Homo sapiens	9126	SMC3	Structural maintenance of chromosomes protein 3	HTS (30108179)	5	30108179	-
+1051	Homo sapiens	10051	SMC4	Structural maintenance of chromosomes protein 4	HTS (30108179)	5	30108179	-
+1052	Homo sapiens	79677	SMC6	Structural maintenance of chromosomes protein 6	HTS (30108179)	5	30108179	-
+1053	Homo sapiens	23347	SMCHD1	Structural maintenance of chromosomes flexible hinge domain-containing protein 1	HTS (30108179)	5	30108179	-
+1054	Homo sapiens	10285	SMNDC1	Survival of motor neuron-related-splicing factor 30	HTS (30108179)	5	30108179	-
+1055	Homo sapiens	55234	SMU1	WD40 repeat-containing protein SMU1	HTS (30108179)	5	30108179	-
+1056	Homo sapiens	79753	SNIP1	Smad nuclear-interacting protein 1	HTS (29742442)	5	29742442	-
+1057	Homo sapiens	9410	SNRNP40	U5 small nuclear ribonucleoprotein 40 kDa protein	HTS (29742442)	5	29742442	-
+1058	Homo sapiens	6628	SNRPB	Small nuclear ribonucleoprotein-associated proteins B and B1	HTS (29742442)	5	29742442	-
+1059	Homo sapiens	6631	SNRPC	U1 small nuclear ribonucleoprotein C	HTS (29742442)	5	29742442	-
+1060	Homo sapiens	6634	SNRPD3	Small nuclear ribonucleoprotein Sm D3	HTS (29742442)	5	29742442	-
+1061	Homo sapiens	6635	SNRPE	Small nuclear ribonucleoprotein E	HTS (29742442)	5	29742442	-
+1062	Homo sapiens	6636	SNRPF	Small nuclear ribonucleoprotein F	HTS (29742442)	5	29742442	-
+1063	Homo sapiens	6637	SNRPG	Small nuclear ribonucleoprotein G	HTS (29742442)	5	29742442	-
+1064	Homo sapiens	6638	SNRPN	Small nuclear ribonucleoprotein-associated protein N	HTS (29742442)	5	29742442	-
+1065	Homo sapiens	4809	SNU13	NHP2-like protein 1	HTS (29742442)	5	29742442	-
+1066	Homo sapiens	3431	SP110	Sp110 nuclear body protein	HTS (29742442)	5	29742442	-
+1067	Homo sapiens	51490	SPOUT1	Uncharacterized protein C9orf114	HTS (29742442)	5	29742442	-
+1068	Homo sapiens	6709	SPTAN1	"Spectrin alpha chain, non-erythrocytic 1"	HTS (30108179)	5	30108179	-
+1069	Homo sapiens	6711	SPTBN1	"Spectrin beta chain, non-erythrocytic 1"	HTS (30108179)	5	30108179	-
+1070	Homo sapiens	8878	SQSTM1	Sequestosome-1	HTS (30108179)	5	30108179	-
+1071	Homo sapiens	55133	SRBD1	S1 RNA-binding domain-containing protein 1	HTS (30108179)	5	30108179	-
+1072	Homo sapiens	6730	SRP68	Signal recognition particle subunit SRP68	HTS (30108179)	5	30108179	-
+1073	Homo sapiens	6731	SRP72	Signal recognition particle subunit SRP72	HTS (29742442)	5	29742442	-
+1074	Homo sapiens	6726	SRP9	Signal recognition particle 9 kDa protein	HTS (29742442)	5	29742442	-
+1075	Homo sapiens	6734	SRPRA	Signal recognition particle receptor subunit alpha	HTS (30108179)	5	30108179	-
+1076	Homo sapiens	58477	SRPRB	Signal recognition particle receptor subunit beta	HTS (30108179)	5	30108179	-
+1077	Homo sapiens	10250	SRRM1	Serine/arginine repetitive matrix protein 1	HTS (29742442)	5	29742442	-
+1078	Homo sapiens	9295	SRSF11	Serine/arginine-rich splicing factor 11	HTS (29742442)	5	29742442	-
+1079	Homo sapiens	6428	SRSF3	Serine/arginine-rich splicing factor 3	HTS (29742442)	5	29742442	-
+1080	Homo sapiens	6429	SRSF4	Serine/arginine-rich splicing factor 4	HTS (29742442)	5	29742442	-
+1081	Homo sapiens	6430	SRSF5	Serine/arginine-rich splicing factor 5	HTS (29742442)	5	29742442	-
+1082	Homo sapiens	6431	SRSF6	Serine/arginine-rich splicing factor 6	HTS (29742442)	5	29742442	-
+1083	Homo sapiens	8683	SRSF9	Serine/arginine-rich splicing factor 9	HTS (29742442)	5	29742442	-
+1084	Homo sapiens	6741	SSB	Lupus La protein	HTS (30108179)	5	30108179	-
+1085	Homo sapiens	6772	STAT1	Signal transducer and activator of transcription 1-alpha/beta	HTS (30108179)	5	30108179	-
+1086	Homo sapiens	27067	STAU2	Double-stranded RNA-binding protein Staufen homolog 2	HTS (29742442)	5	29742442	-
+1087	Homo sapiens	10963	STIP1	Stress-induced-phosphoprotein 1	HTS (30108179)	5	30108179	-
+1088	Homo sapiens	6793	STK10	Serine/threonine-protein kinase 10	HTS (30108179)	5	30108179	-
+1089	Homo sapiens	30968	STOML2	"Stomatin-like protein 2, mitochondrial"	HTS (30108179)	5	30108179	-
+1090	Homo sapiens	55342	STRBP	Spermatid perinuclear RNA-binding protein	HTS (29742442)	5	29742442	-
+1091	Homo sapiens	3703	STT3A	Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit STT3A	HTS (30108179)	5	30108179	-
+1092	Homo sapiens	201595	STT3B	Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit STT3B	HTS (30108179)	5	30108179	-
+1093	Homo sapiens	6838	SURF6	Surfeit locus protein 6	HTS (29742442)	5	29742442	-
+1094	Homo sapiens	6839	SUV39H1	Histone-lysine N-methyltransferase SUV39H1	HTS (29742442)	5	29742442	-
+1095	Homo sapiens	51347	TAOK3	Serine/threonine-protein kinase TAO3	HTS (30108179)	5	30108179	-
+1096	Homo sapiens	6890	TAP1	Antigen peptide transporter 1	HTS (30108179)	5	30108179	-
+1097	Homo sapiens	6895	TARBP2	RISC-loading complex subunit TARBP2	HTS (29742442)	5	29742442	-
+1098	Homo sapiens	123283	TARS3	"Probable threonine--tRNA ligase 2, cytoplasmic"	HTS (29742442)	5	29742442	-
+1099	Homo sapiens	26000	TBC1D10B	TBC1 domain family member 10B	HTS (30108179)	5	30108179	-
+1100	Homo sapiens	10915	TCERG1	Transcription elongation regulator 1	HTS (30108179)	5	30108179	-
+1101	Homo sapiens	64282	TENT4B	PAP-associated domain-containing protein 5	HTS (29742442)	5	29742442	-
+1102	Homo sapiens	7019	TFAM	"Transcription factor A, mitochondrial"	HTS (30108179)	5	30108179	-
+1103	Homo sapiens	10342	TFG	Protein TFG;Tyrosine-protein kinase receptor	HTS (30108179)	5	30108179	-
+1104	Homo sapiens	7037	TFRC	Transferrin receptor protein 1	HTS (30108179)	5	30108179	-
+1105	Homo sapiens	57187	THOC2	THO complex subunit 2	HTS (30108179)	5	30108179	-
+1106	Homo sapiens	29087	THYN1	Thymocyte nuclear protein 1	HTS (30108179)	5	30108179	-
+1107	Homo sapiens	7073	TIAL1	Nucleolysin TIAR	HTS (30108179)	5	30108179	-
+1108	Homo sapiens	7094	TLN1	Talin-1	HTS (30108179)	5	30108179	-
+1109	Homo sapiens	54867	TMEM214	Transmembrane protein 214	HTS (30108179)	5	30108179	-
+1110	Homo sapiens	7112	TMPO	"Lamina-associated polypeptide 2, isoform alpha"	HTS (30108179)	5	30108179	-
+1111	Homo sapiens	7127	TNFAIP2	Tumor necrosis factor alpha-induced protein 2	HTS (29742442)	5	29742442	-
+1112	Homo sapiens	23043	TNIK	TRAF2 and NCK-interacting protein kinase	HTS (30108179)	5	30108179	-
+1113	Homo sapiens	23112	TNRC6B	Trinucleotide repeat-containing gene 6B protein	HTS (30108179)	5	30108179	-
+1114	Homo sapiens	7153	TOP2A	DNA topoisomerase 2-alpha	HTS (29742442)	5	29742442	-
+1115	Homo sapiens	7155	TOP2B	DNA topoisomerase 2-beta	HTS (30108179)	5	30108179	-
+1116	Homo sapiens	7167	TPI1	Triosephosphate isomerase	HTS (30108179)	5	30108179	-
+1117	Homo sapiens	7175	TPR	Nucleoprotein TPR	HTS (30108179)	5	30108179	-
+1118	Homo sapiens	22974	TPX2	Targeting protein for Xklp2	HTS (29742442)	5	29742442	-
+1119	Homo sapiens	29896	TRA2A	Transformer-2 protein homolog alpha	HTS (29742442)	5	29742442	-
+1120	Homo sapiens	7185	TRAF1	TNF receptor-associated factor 1	HTS (30108179)	5	30108179	-
+1121	Homo sapiens	10131	TRAP1	"Heat shock protein 75 kDa, mitochondrial"	HTS (30108179)	5	30108179	-
+1122	Homo sapiens	7706	TRIM25	E3 ubiquitin/ISG15 ligase TRIM25	HTS (30108179)	5	30108179	-
+1123	Homo sapiens	7726	TRIM26	Tripartite motif-containing protein 26	HTS (30108179)	5	30108179	-
+1124	Homo sapiens	10155	TRIM28	Transcription intermediary factor 1-beta	HTS (30108179)	5	30108179	-
+1125	Homo sapiens	9325	TRIP4	Activating signal cointegrator 1	HTS (30108179)	5	30108179	-
+1126	Homo sapiens	27037	TRMT2A	tRNA (uracil-5-)-methyltransferase homolog A	HTS (30108179)	5	30108179	-
+1127	Homo sapiens	9652	TTC37	Tetratricopeptide repeat protein 37	HTS (30108179)	5	30108179	-
+1128	Homo sapiens	7270	TTF1	Transcription termination factor 1	HTS (29742442)	5	29742442	-
+1129	Homo sapiens	10376	TUBA1B	Tubulin alpha-1B chain	HTS (30108179)	5	30108179	-
+1130	Homo sapiens	203068	TUBB	Tubulin beta chain	HTS (30108179)	5	30108179	-
+1131	Homo sapiens	10383	TUBB4B	Tubulin beta-4B chain	HTS (30108179)	5	30108179	-
+1132	Homo sapiens	7283	TUBG1	Tubulin gamma-1 chain	HTS (30108179)	5	30108179	-
+1133	Homo sapiens	7284	TUFM	"Elongation factor Tu, mitochondrial"	HTS (30108179)	5	30108179	-
+1134	Homo sapiens	200081	TXLNA	Alpha-taxilin	HTS (30108179)	5	30108179	-
+1135	Homo sapiens	7317	UBA1	Ubiquitin-like modifier-activating enzyme 1	HTS (30108179)	5	30108179	-
+1136	Homo sapiens	55833	UBAP2	Ubiquitin-associated protein 2	HTS (30108179)	5	30108179	-
+1137	Homo sapiens	9898	UBAP2L	Ubiquitin-associated protein 2-like	HTS (30108179)	5	30108179	-
+1138	Homo sapiens	7343	UBTF	Nucleolar transcription factor 1	HTS (30108179)	5	30108179	-
+1139	Homo sapiens	23376	UFL1	E3 UFM1-protein ligase 1	HTS (30108179)	5	30108179	-
+1140	Homo sapiens	65109	UPF3B	Regulator of nonsense transcripts 3B	HTS (30108179)	5	30108179	-
+1141	Homo sapiens	7385	UQCRC2	"Cytochrome b-c1 complex subunit 2, mitochondrial"	HTS (30108179)	5	30108179	-
+1142	Homo sapiens	57602	USP36	Ubiquitin carboxyl-terminal hydrolase 36	HTS (29742442)	5	29742442	-
+1143	Homo sapiens	10713	USP39	U4/U6.U5 tri-snRNP-associated protein 2	HTS (30108179)	5	30108179	-
+1144	Homo sapiens	7874	USP7	Ubiquitin carboxyl-terminal hydrolase 7	HTS (30108179)	5	30108179	-
+1145	Homo sapiens	51118	UTP11	Probable U3 small nucleolar RNA-associated protein 11	HTS (29742442)	5	29742442	-
+1146	Homo sapiens	84135	UTP15	U3 small nucleolar RNA-associated protein 15 homolog	HTS (29742442)	5	29742442	-
+1147	Homo sapiens	51096	UTP18	U3 small nucleolar RNA-associated protein 18 homolog	HTS (29742442)	5	29742442	-
+1148	Homo sapiens	84294	UTP23	rRNA-processing protein UTP23 homolog	HTS (29742442)	5	29742442	-
+1149	Homo sapiens	84916	UTP4	Cirhin	HTS (29742442)	5	29742442	-
+1150	Homo sapiens	55813	UTP6	U3 small nucleolar RNA-associated protein 6 homolog	HTS (29742442)	5	29742442	-
+1151	Homo sapiens	9218	VAPA	Vesicle-associated membrane protein-associated protein A	HTS (30108179)	5	30108179	-
+1152	Homo sapiens	7408	VASP	Vasodilator-stimulated phosphoprotein	HTS (30108179)	5	30108179	-
+1153	Homo sapiens	7415	VCP	Transitional endoplasmic reticulum ATPase	HTS (30108179)	5	30108179	-
+1154	Homo sapiens	7416	VDAC1	Voltage-dependent anion-selective channel protein 1	HTS (30108179)	5	30108179	-
+1155	Homo sapiens	7419	VDAC3	Voltage-dependent anion-selective channel protein 3	HTS (30108179)	5	30108179	-
+1156	Homo sapiens	7443	VRK1	Serine/threonine-protein kinase VRK1	HTS (30108179)	5	30108179	-
+1157	Homo sapiens	7453	WARS1	"Tryptophan--tRNA ligase, cytoplasmic"	HTS (30108179)	5	30108179	-
+1158	Homo sapiens	10163	WASF2	Wiskott-Aldrich syndrome protein family member 2	HTS (30108179)	5	30108179	-
+1159	Homo sapiens	55759	WDR12	Ribosome biogenesis protein WDR12	HTS (29742442)	5	29742442	-
+1160	Homo sapiens	23160	WDR43	WD repeat-containing protein 43	HTS (29742442)	5	29742442	-
+1161	Homo sapiens	9277	WDR46	WD repeat-containing protein 46	HTS (29742442)	5	29742442	-
+1162	Homo sapiens	54853	WDR55	WD repeat-containing protein 55	HTS (29742442)	5	29742442	-
+1163	Homo sapiens	11180	WDR6	WD repeat-containing protein 6	HTS (30108179)	5	30108179	-
+1164	Homo sapiens	54663	WDR74	WD repeat-containing protein 74	HTS (29742442)	5	29742442	-
+1165	Homo sapiens	84128	WDR75	WD repeat-containing protein 75	HTS (29742442)	5	29742442	-
+1166	Homo sapiens	56949	XAB2	Pre-mRNA-splicing factor SYF1	HTS (29742442)	5	29742442	-
+1167	Homo sapiens	2547	XRCC6	X-ray repair cross-complementing protein 6	HTS (30108179)	5	30108179	-
+1168	Homo sapiens	54464	XRN1	5-3 exoribonuclease 1	HTS (30108179)	5	30108179	-
+1169	Homo sapiens	8565	YARS1	"Tyrosine--tRNA ligase, cytoplasmic"	HTS (30108179)	5	30108179	-
+1170	Homo sapiens	56252	YLPM1	YLP motif-containing protein 1	HTS (30108179)	5	30108179	-
+1171	Homo sapiens	64848	YTHDC2	Probable ATP-dependent RNA helicase YTHDC2	HTS (30108179)	5	30108179	-
+1172	Homo sapiens	253943	YTHDF3	YTH domain-containing family protein 3	HTS (30108179)	5	30108179	-
+1173	Homo sapiens	7532	YWHAG	14-3-3 protein gamma	HTS (29742442)	5	29742442	-
+1174	Homo sapiens	10971	YWHAQ	14-3-3 protein theta	HTS (30108179)	5	30108179	-
+1175	Homo sapiens	7534	YWHAZ	14-3-3 protein zeta/delta	HTS (30108179)	5	30108179	-
+1176	Homo sapiens	51538	ZCCHC17	Nucleolar protein of 40 kDa	HTS (29742442)	5	29742442	-
+1177	Homo sapiens	10771	ZMYND11	Zinc finger MYND domain-containing protein 11	HTS (29742442)	5	29742442	-
+1178	Homo sapiens	55609	ZNF280C	Zinc finger protein 280C	HTS (29742442)	5	29742442	-
+1179	Homo sapiens	284695	ZNF326	DBIRD complex subunit ZNF326	HTS (29742442)	5	29742442	-
+1180	Homo sapiens	84450	ZNF512	Zinc finger protein 512	HTS (29742442)	5	29742442	-
+1181	Homo sapiens	51042	ZNF593	Zinc finger protein 593	HTS (29742442)	5	29742442	-
+1182	Homo sapiens	90850	ZNF598	Zinc finger protein 598	HTS (30108179)	5	30108179	-
+1183	Homo sapiens	90317	ZNF616	Zinc finger protein 616	HTS (29742442)	5	29742442	-
+1184	Homo sapiens	79759	ZNF668	Zinc finger protein 668	HTS (29742442)	5	29742442	-
+1185	Homo sapiens	168850	ZNF800	Zinc finger protein 800	HTS (29742442)	5	29742442	-
