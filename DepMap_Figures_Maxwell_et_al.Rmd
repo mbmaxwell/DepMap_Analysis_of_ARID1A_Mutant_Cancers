@@ -378,3 +378,10 @@ vplot
 ggsave("Proteomics_volcano_plot.pdf",height=5.5,width=8,units="in") 
 ```
 
+
+## **Session Info**
+For reproducibility, my session info is listed below outlining the version of R and package versions that I’ve used for this vignette. 
+```{r}
+print(sessionInfo())
+```
+
